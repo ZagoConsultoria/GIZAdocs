@@ -8,7 +8,7 @@ Essas histórias servirão como base para o desenvolvimento incremental da solu�
 
 O objetivo deste documento é apresentar as histórias de usuário que descrevem, do ponto de vista da analista ambiental, as funcionalidades desejadas no sistema. Cada história está associada a um requisito funcional previamente elicitado e tem por finalidade guiar o time de desenvolvimento quanto às expectativas de uso, critérios de aceitação e priorização, facilitando a organização do backlog e a comunicação entre equipe técnica e usuários.
 
-# [US01] - Coletar dados via ZS
+# [US01] - Coletar dados via ZS {#us01}
 
 ### Tabela 1: História de Usuário – Coletar dados via ZS
 
@@ -22,7 +22,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                                           |
 | Rastreabilidade              | RF01-NW                                                                                                                                                                                            |
 
-# [US02] - Utilizar sistema offline
+# [US02] - Utilizar sistema offline {#us02}
 
 ### Tabela 2: História de Usuário – Funcionamento offline
 
@@ -36,7 +36,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                       |
 | Rastreabilidade              | RF04-NW                                                                                                                                        |
 
-# [US03] - Organizar dados por gás
+# [US03] - Organizar dados por gás {#us03}
 
 ### Tabela 3: História de Usuário – Organizar dados por gás
 
@@ -50,7 +50,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                     |
 | Rastreabilidade              | RF02-NW                                                                                                                                                      |
 
-# [US04] - Enviar fotos automaticamente
+# [US04] - Enviar fotos automaticamente {#us04}
 
 ### Tabela 4: História de Usuário – Enviar fotos automaticamente
 
@@ -64,7 +64,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                   |
 | Rastreabilidade              | RF03-NW                                                                                                                                                    |
 
-# [US05] - Armazenar dados com segurança
+# [US05] - Armazenar dados com segurança {#us05}
 
 ### Tabela 5: História de Usuário – Armazenar dados
 
@@ -78,7 +78,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                        |
 | Rastreabilidade              | RF05-NW                                                                                                                         |
 
-# [US06] - Baixar fotos em lote
+# [US06] - Baixar fotos em lote {#us06}
 
 ### Tabela 6: História de Usuário – Baixar fotos em lote
 
@@ -92,7 +92,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                           |
 | Rastreabilidade              | RF08-NW                                                                                                                                            |
 
-# [US07] - Visualizar dados em tabela filtrável
+# [US07] - Visualizar dados em tabela filtrável {#us07}
 
 ### Tabela 7: História de Usuário – Tabela com filtros
 
@@ -106,7 +106,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                        |
 | Rastreabilidade              | RF09-NW                                                                                                                         |
 
-# [US08] - Integrar com plataformas existentes
+# [US08] - Integrar com plataformas existentes {#us08}
 
 ### Tabela 8: História de Usuário – Integrações com ZS, GIZA e TimeStamp
 
@@ -120,7 +120,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                          |
 | Rastreabilidade              | RF06-NW                                                                                                                                                                           |
 
-# [US09] - Visualizar tabela com farol de cor
+# [US09] - Visualizar tabela com farol de cor {#us09}
 
 ### Tabela 9: História de Usuário – Tabela com alerta visual
 
@@ -134,7 +134,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                       |
 | Rastreabilidade              | RF07-NW                                                                                                                                                                        |
 
-# [US10] - Gerar esqueleto de relatório Word
+# [US10] - Gerar esqueleto de relatório Word {#us10}
 
 ### Tabela 10: História de Usuário – Geração de esqueleto de relatório
 
@@ -148,7 +148,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                           |
 | Rastreabilidade              | RF10-NW                                                                                                                                                                            |
 
-# [US11] - Inserir dados complementares no relatório
+# [US11] - Inserir dados complementares no relatório {#us11}
 
 ### Tabela 11: História de Usuário – Inserção de dados manuais
 
@@ -162,7 +162,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                    |
 | Rastreabilidade              | RF12-NW                                                                                                                                                                     |
 
-# [US12] - Gerar relatório conforme padrão regulatório
+# [US12] - Gerar relatório conforme padrão regulatório {#us12}
 
 ### Tabela 12: História de Usuário – Conformidade regulatória do relatório
 

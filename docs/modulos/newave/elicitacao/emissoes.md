@@ -22,7 +22,7 @@ A elicitação de requisitos foi realizada com base em:
 - Observação de processos similares (como o monitoramento de processos erosivos);
 - Identificação de lacunas no processo atual de coleta e organização de dados ambientais.
 
-### Requisitos Funcionais
+### Requisitos Funcionais {#requisitos-funcionais}
 
 | **ID**  | **Requisito Funcional**                                                                |
 | ------- | -------------------------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ A elicitação de requisitos foi realizada com base em:
 | RF11-NW | Gerar relatórios conforme padrão regulatório ambiental.                                |
 | RF12-NW | Permitir inserção manual de dados complementares (particulados, gráficos, fotos).      |
 
-### Requisitos Não Funcionais
+### Requisitos Não Funcionais {#requisitos-nao-funcionais}
 
 | **ID**   | **Requisito Não Funcional**                                                                |
 | -------- | ------------------------------------------------------------------------------------------ |

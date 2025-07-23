@@ -12,7 +12,7 @@ Durante o processo de elicitação de requisitos, foram levantadas diversas func
 
 Foi utilizada a técnica dos **100 dólares**, na qual a usuária distribuiu uma quantia simbólica de $100 entre os requisitos funcionais, de acordo com a importância percebida. Quanto maior o valor atribuído a um requisito, maior a sua prioridade de implementação. Esse método facilita decisões quando há limitação de tempo, orçamento ou recursos de desenvolvimento.
 
-### Tabela de Priorização
+### Tabela de Priorização {#tabela-priorizacao}
 
 | **ID**  | **Requisito Funcional**                                                                | **Valor ($)** |
 | ------- | -------------------------------------------------------------------------------------- | ------------- |
