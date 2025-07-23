@@ -3,31 +3,12 @@
 ## Parte 1: Estabelecendo o perfil do usuário e do cliente
 
 - **Nome: Willy**
-- **Cargo:**
-
-### Responsabilidades
-- Quais são as suas principais responsabilidades?
-> _[Resposta]_
-
-### Saídas
-- Que saídas você produz? Para quem?
-> _[Resposta]_
-
-### Indicadores de sucesso
-- Como é medido o sucesso das suas atividades?
-> _[Resposta]_
-
-### Problemas
-- Quais problemas interferem no seu sucesso?
-> _[Resposta]_
 
 ## Parte 2: Avaliando o Problema
 
 ### Problemas não resolvidos
 - Para quais problemas você não tem boas soluções?
 > _Coleta, elaboração de relatórios_
-- Quais são eles? (Dica: continue perguntando “Há algo mais?”)
-> _[Resposta]_
 
 ### Detalhamento de cada problema:
 
@@ -48,7 +29,7 @@
 > _Fotos disponíveis no giza para escolher baixar_
 
 - Por que este problema existe?
-> _geração de relatºorio _
+> _geração de relatório _
 - Como você o resolve atualmente?
 > _[Resposta]_
 - Como você gostaria que ele fosse resolvido?
@@ -85,19 +66,7 @@ _Repetir para outros problemas._
 - Que tipo de ajuda eles precisarão (ex: cópia impressa, documentação online)?
 > _Não precisa_
 
-## Parte 4: Recapitulação do Entendimento
-
-- Você me disse que:
-  - (Liste os problemas descritos pelo usuário em suas próprias palavras)
-  > _[Resposta]_
-- Isto representa adequadamente os problemas que você anda tendo com a solução atual?
-> _[Resposta]_
-- Quais, se existem, outros problemas que você anda tendo?
-> _[Resposta]_
-
----
-
-## Parte 5: As contribuições do analista aos problemas do cliente
+## Parte 4: As contribuições do analista aos problemas do cliente
 
 - (Valide ou invalide suas pressuposições)
 > _[Resposta]_
@@ -110,37 +79,21 @@ _Repetir para outros problemas._
   - Como você gostaria de solucioná-lo?
   - Como você classificaria a solução desses problemas em comparação com os outros que você mencionou?
 
-## Parte 6: Avaliando a oportunidade
-
-- Como você avaliaria uma solução de sucesso?
-> _[Resposta]_
-
-## Parte 7: Requisitos de confiabilidade, performance e suporte
-
-- Quais são suas expectativas de confiabilidade?
-> _[Resposta]_
-- Quais são suas expectativas de performance?
-> _[Resposta]_
-- Quais são os requisitos de segurança?
-> _[Resposta]_
-- Quais são os requisitos de instalação e configuração?
-> _[Resposta]_
-
-## Parte 08: Outros requisitos
+## Parte 05: Outros requisitos
 
 - Existe algum requisito legal, regulamentador, ambiental ou outros padrões que devem ser suportados?
-> _[Resposta]_
+> _Não_
 - Você imagina algum outro requisito que possa ser necessário?
-> _[Resposta]_
+> _Não_
 
-## Parte 09: Breves notícias
+## Parte 06: Breves notícias
 
 - Existem outras questões que eu deveria estar te perguntando?
-> _[Resposta]_
+> _Não_
 - Você estaria disposto a participar de uma revisão de requisitos?
-> _[Resposta]_
+> _Sim_
 
-## Parte 10: Sumário do Analista
+## Parte 07: Sumário do Analista
 
 - **Resumo da entrevista:**
   - Coleta de dados no ZS offline, evidências no ZS apenas se coordenada e logo da empresa estiver aparecendo
@@ -151,24 +104,11 @@ _Repetir para outros problemas._
   - Download de fotos por lote e por registro
   - Informações de visualização: Estado de planta(morta/viva), incidência de pragas(sim/não), necessidade de adubação(sim/não, quais?), entre outras
 
-- **Prioridades identificadas:**
-  1. 
-  2. 
-  3. 
-  4.
-  5.
-  6. 
-  7. 
-
-- **Ações a serem tomadas:**
-  - ...
-
 ## Ata da Reunião
 
 - **Data: 23 de julho**
 - **Participantes: Gabriel Dantas Bevilaqua Mendes**
-- **Resumo da conversa:**
-- **Próximos passos:**
+- **Próximos passos: Prototipar**
 
 
 
