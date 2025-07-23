@@ -64,6 +64,6 @@ nav:
           - Priorização de Requisitos:
               - PRAD: modulos/axs/priorizacao/prad.md
           - Histórias de Usuário:
-              - PRAD: modulos/newave/axs/prad.md
+              - PRAD: modulos/axs/modelagem/prad.md
   - Rastreabilidade:
     - Matriz de Rastreabilidade: rastreabilidade/matriz.md

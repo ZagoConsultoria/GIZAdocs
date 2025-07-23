@@ -20,7 +20,7 @@ Desenvolver uma solução que permita:
 
 ---
 
-## Requisitos Funcionais
+## Requisitos Funcionais {#requisitos-funcionais}
 
 | Código | Descrição                                                                                |
 | ------ | ---------------------------------------------------------------------------------------- |
@@ -31,10 +31,11 @@ Desenvolver uma solução que permita:
 | RF05-AXS   | Permitir edição de dados por registro diretamente no GIZA.                               |
 | RF06-AXS   | Exibir em dashboard uma tabela filtrável com os dados coletados.                         |
 | RF07-AXS   | Apresentar informações visuais de análise como: estado da planta, pragas, adubação, etc. |
+| RF08-AXS   | Opção de emitir relatórios editáveis com os dados dos registros |
 
 ---
 
-## Requisitos Não Funcionais
+## Requisitos Não Funcionais {#requisitos-nao-funcionais}
 
 | Código | Descrição                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------- |
