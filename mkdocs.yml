@@ -1,0 +1,67 @@
+site_name: GIZA
+
+repo_name: "ZS"
+repo_url: "https://github.com/HeitorQueAnd/ZS"
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Dark mode
+      primary: green
+      accent: green
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Light mode
+      primary: green
+      accent: green
+
+markdown_extensions:
+  - attr_list
+  - tables
+
+extra_css:
+  - custom.css
+
+nav:
+  - Início: index.md
+  - Templates:
+      - Roteiro Discovery: template/roteiro.md
+      - Roteiro Teams: template/teams.md
+  - Módulos:
+      - Newave:
+          - Discovery:
+              - 22/07 - Emissões Atmosféricas: modulos/newave/discovery/emissoes.md
+          - Elicitação de Requisitos:
+              - Emissões Atmosféricas: modulos/newave/elicitacao/emissoes.md
+          - Priorização de Requisitos:
+              - Emissões Atmosféricas: modulos/newave/priorizacao/emissoes.md
+          - Histórias de Usuário:
+              - Emissões Atmosféricas: modulos/newave/modelagem/emissoes.md
+      - AXS:
+          - Discovery:
+              - 23/07 - PRAD: modulos/axs/discovery/prad.md
+          - Elicitação de Requisitos:
+              - PRAD: modulos/axs/elicitacao/prad.md
+          - Priorização de Requisitos:
+              - PRAD: modulos/axs/priorizacao/prad.md
+          - Histórias de Usuário:
+              - PRAD: modulos/newave/axs/prad.md
