@@ -23,14 +23,6 @@ A elicitação de requisitos foi realizada com base em:
 - Observação de processos similares de monitoramento ambiental;
 - Identificação de lacunas no processo atual de coleta e organização de dados de ruído.
 
-## Stakeholders
-
-### 👩‍💻 Usuários
-
-- **Usuários finais**: Bruna
-- **Influenciadores e tomadores de decisão**: Daniella
-- **Visão/Impacto no Cliente**: Acompanhar o impacto da obra na fauna e na área urbana
-
 ### Requisitos Funcionais {#requisitos-funcionais}
 
 | **ID**  | **Requisito Funcional**                                                         |
@@ -58,16 +50,6 @@ A elicitação de requisitos foi realizada com base em:
 | RNF09-NW | Instalação possível no celular e acesso também via navegador.                              |
 | RNF10-NW | Garantir segurança e sigilo dos dados de impacto ambiental.                                |
 | RNF11-NW | Suportar gravação e armazenamento de arquivos de áudio de alta qualidade.                  |
-
-## Análise de Dores e Soluções
-
-### 💼 Resumo e Priorização de dores
-
-| **Etapa**     | **Possível Solução**                          | **Benefícios 🥰**                                                              | **Riscos ⛔**                                                                                               |
-| ------------- | --------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| Coleta        | Criar formulário no aplicativo de coleta - ZS | Coleta de dados automatizada                                                   | -                                                                                                           |
-| Armazenamento | Construção do Banco de dados parametrizado    | Armazenamento automático sem necessidade de subir as fotos e dados manualmente | -                                                                                                           |
-| Distribuição  | Geração automática de relatórios no GIZA      | Relatório a um clique                                                          | Hoje os relatórios têm mais de um programa junto o que pode gerar um baixo uso dos novos relatórios criados |
 
 ## Observações
 
