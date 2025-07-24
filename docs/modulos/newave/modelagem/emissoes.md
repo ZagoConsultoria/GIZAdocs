@@ -134,13 +134,19 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                       |
 | Rastreabilidade              | RF07-NW                                                                                                                                                                        |
 
-# [US10-NW] - Backup automático dos dados {#us10-nw}
+# [US10-NW] - Exportar dados para Excel {#us10-nw}
 
-### Tabela 10: História de Usuário – Backup automático
+### Tabela 10: História de Usuário – Exportação para Excel
 
-| Item                         | Descrição |
-| ---------------------------- | --------- |
-| USx(número de identificação) | US10-NW   |
+| Item                         | Descrição                                                                                                                                                       |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US10-NW                                                                                                                                                         |
+| Tema                         | Exportação de dados para planilha Excel                                                                                                                         |
+| Descrição                    | Eu, como analista ambiental, desejo exportar os dados coletados para uma planilha Excel com formatação adequada, para facilitar análises e relatórios externos. |
+| Critérios de Aceitação       | - O arquivo Excel deve conter todos os dados da coleta.<br>- A formatação deve ser adequada para análise.<br>- Deve incluir filtros automáticos nas colunas.    |
+| Prioridade Usuário           | Média                                                                                                                                                           |
+| Status                       | Validada                                                                                                                                                        |
+| Rastreabilidade              | RF10-NW                                                                                                                                                         |
 
 # [US11-NW] - Inserir dados complementares no relatório {#us11-nw}
 

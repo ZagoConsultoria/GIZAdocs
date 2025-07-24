@@ -56,6 +56,7 @@ nav:
               - Emissões Atmosféricas: modulos/newave/priorizacao/emissoes.md
           - Histórias de Usuário:
               - Emissões Atmosféricas: modulos/newave/modelagem/emissoes.md
+          - Backlog: modulos/newave/backlog_geral.md
       - AXS:
           - Discovery:
               - 23/07 - PRAD: modulos/axs/discovery/prad.md

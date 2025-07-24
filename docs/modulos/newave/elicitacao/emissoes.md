@@ -35,7 +35,7 @@ A elicitação de requisitos foi realizada com base em:
 | RF07-NW | Exibir tabela no GIZA com filtro e farol de cor (ex: fumaça preta > 40% em vermelho).  |
 | RF08-NW | Permitir download de fotos por lote ou por registro individual.                        |
 | RF09-NW | Exibir dados em formato de tabela filtrável e exportável.                              |
-| RF10-NW | Gerar esqueleto de relatório Word com tabelas prontas para completar com dados extras. |
+| RF10-NW | Exportar dados para planilha Excel com formatação adequada para análise.               |
 | RF11-NW | Gerar relatórios conforme padrão regulatório ambiental.                                |
 | RF12-NW | Permitir inserção manual de dados complementares (particulados, gráficos, fotos).      |
 
@@ -48,6 +48,24 @@ A elicitação de requisitos foi realizada com base em:
 | RNF03-NW | Garantir desempenho estável, inclusive no modo offline.                                    |
 | RNF04-NW | Instalação possível no celular e acesso também via navegador.                              |
 | RNF05-NW | Garantir segurança e sigilo dos dados.                                                     |
+
+## Changelog de Requisitos
+
+Esta seção documenta as alterações realizadas nos requisitos funcionais e não funcionais após a elicitação inicial, garantindo rastreabilidade e controle de mudanças.
+
+### Versão 1.1 - 24/07/2025
+
+**Requisitos Alterados:**
+
+| **ID**  | **Descrição Original**                                                                 | **Nova Descrição**                                                       | **Justificativa**                                                                                                  |
+| ------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| RF10-NW | Gerar esqueleto de relatório Word com tabelas prontas para completar com dados extras. | Exportar dados para planilha Excel com formatação adequada para análise. | Mudança de estratégia para facilitar análise de dados pelos usuários, utilizando Excel ao invés de templates Word. |
+
+**Impactos:**
+
+- **Modelagem**: História de usuário US10-NW deve ser atualizada para refletir exportação Excel
+- **Priorização**: Prioridade mantida como definida anteriormente
+- **Desenvolvimento**: Interface de exportação será adaptada para formato Excel (.xlsx)
 
 ## Observações
 
