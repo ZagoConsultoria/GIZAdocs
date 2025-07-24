@@ -49,6 +49,7 @@ nav:
   - Módulos:
       - Newave:
           - Discovery:
+              - 23/06 - Ruídos: modulos/newave/discovery/ruidos.md
               - 22/07 - Emissões Atmosféricas: modulos/newave/discovery/emissoes.md
           - Elicitação de Requisitos:
               - Emissões Atmosféricas: modulos/newave/elicitacao/emissoes.md
