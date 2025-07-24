@@ -52,10 +52,13 @@ nav:
               - 22/07 - Emissões Atmosféricas: modulos/newave/discovery/emissoes.md
           - Elicitação de Requisitos:
               - Emissões Atmosféricas: modulos/newave/elicitacao/emissoes.md
+              - Ruídos: modulos/newave/elicitacao/ruidos.md
           - Priorização de Requisitos:
               - Emissões Atmosféricas: modulos/newave/priorizacao/emissoes.md
+              - Ruídos: modulos/newave/priorizacao/ruidos.md
           - Histórias de Usuário:
               - Emissões Atmosféricas: modulos/newave/modelagem/emissoes.md
+              - Ruídos: modulos/newave/modelagem/ruidos.md
           - Backlog: modulos/newave/backlog_geral.md
       - AXS:
           - Discovery:
