@@ -1,0 +1,5 @@
+- filtragem de ocorrencias
+- Dashboard com visualização de ocorrências e resumo dos indicadores mais importantes como total de ocorrências, média da area afetada, feições e progressão e feições em regressão
+- Opção de visualização de evidencias e exportação
+- Opção de exportar dados em planilha
+- Em cada ocorrencia ter: id, data/hora, supervisor, coordenadas, origem da feição, estágio evolutivo, fator contribuinte, descrição outro fator, area afetada, medidas sugeridas

@@ -54,12 +54,15 @@ nav:
           - Elicitação de Requisitos:
               - Emissões Atmosféricas: modulos/newave/elicitacao/emissoes.md
               - Ruídos: modulos/newave/elicitacao/ruidos.md
+              - Erosão: modulos/newave/elicitacao/erosao.md
           - Priorização de Requisitos:
               - Emissões Atmosféricas: modulos/newave/priorizacao/emissoes.md
               - Ruídos: modulos/newave/priorizacao/ruidos.md
+              - Erosão: modulos/newave/priorizacao/erosao.md
           - Histórias de Usuário:
               - Emissões Atmosféricas: modulos/newave/modelagem/emissoes.md
               - Ruídos: modulos/newave/modelagem/ruidos.md
+              - Erosão: modulos/newave/modelagem/erosao.md
           - Backlog: modulos/newave/backlog_geral.md
       - AXS:
           - Discovery:
@@ -71,4 +74,4 @@ nav:
           - Histórias de Usuário:
               - PRAD: modulos/axs/modelagem/prad.md
   - Rastreabilidade:
-    - Matriz de Rastreabilidade: rastreabilidade/matriz.md
+      - Matriz de Rastreabilidade: rastreabilidade/matriz.md
