@@ -66,12 +66,17 @@ nav:
           - Backlog: modulos/newave/backlog_geral.md
       - AXS:
           - Discovery:
+              - 16/06 - Pré-Plantio: modulos/axs/discovery/plantio.md
               - 23/07 - PRAD: modulos/axs/discovery/prad.md
           - Elicitação de Requisitos:
               - PRAD: modulos/axs/elicitacao/prad.md
+              - Plantio: modulos/axs/elicitacao/plantio.md
           - Priorização de Requisitos:
               - PRAD: modulos/axs/priorizacao/prad.md
+              - Plantio: modulos/axs/priorizacao/plantio.md
           - Histórias de Usuário:
               - PRAD: modulos/axs/modelagem/prad.md
+              - Plantio: modulos/axs/modelagem/plantio.md
+          - Backlog: modulos/axs/backlog_geral.md
   - Rastreabilidade:
       - Matriz de Rastreabilidade: rastreabilidade/matriz.md
