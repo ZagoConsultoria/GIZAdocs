@@ -49,19 +49,9 @@ Exemplo: **RF01C-NW** = Primeiro requisito funcional consolidado do módulo Newa
 
 ### Backlog Consolidado por Epic
 
-## Epic 1: Infraestrutura Base
+## Epic 1: Coleta
 
-**Objetivo**: Estabelecer fundações técnicas comuns
-
-| **Item** | **Descrição**                                                      | **Prioridade** | **Story Points** | **Programas Beneficiados** |
-| -------- | ------------------------------------------------------------------ | -------------- | ---------------- | -------------------------- |
-| RF02C-NW | Sistema de trabalho offline com sincronização                      | Alta           | 13               | Emissões, Ruídos, Erosão   |
-| RF04C-NW | Banco de dados parametrizado para múltiplos tipos de monitoramento | Alta           | 8                | Emissões, Ruídos, Erosão   |
-| RF05C-NW | Integração com ZS, GIZA e TimeStamp                                | Alta           | 13               | Emissões, Ruídos, Erosão   |
-
-## Epic 2: Coleta de Dados
-
-**Objetivo**: Funcionalidades core de coleta em campo
+**Objetivo**: Funcionalidades de coleta de dados em campo
 
 | **Item** | **Descrição**                                            | **Prioridade** | **Story Points** | **Programas Beneficiados** |
 | -------- | -------------------------------------------------------- | -------------- | ---------------- | -------------------------- |
@@ -69,11 +59,32 @@ Exemplo: **RF01C-NW** = Primeiro requisito funcional consolidado do módulo Newa
 | RF02-NW  | Ficha específica para CO₂, CO e SO₂ por ponto            | Alta           | 5                | Emissões                   |
 | RF14-NW  | Registro de níveis sonoros com timestamp                 | Alta           | 5                | Ruídos                     |
 | RF26-NW  | Medições de perda de solo com GPS automático             | Alta           | 8                | Erosão                     |
+| RF02C-NW | Sistema de trabalho offline com sincronização            | Alta           | 13               | Emissões, Ruídos, Erosão   |
 | RF03C-NW | Upload automático de evidências (fotos/áudio/topografia) | Alta           | 8                | Emissões, Ruídos, Erosão   |
+| RF12-NW  | Inserção manual de dados complementares (Emissões)       | Baixa          | 3                | Emissões                   |
 
-## Epic 3: Visualização e Dashboard
+## Epic 2: Armazenamento
 
-**Objetivo**: Interfaces de visualização e monitoramento
+**Objetivo**: Estruturas de dados e persistência
+
+| **Item** | **Descrição**                                                      | **Prioridade** | **Story Points** | **Programas Beneficiados** |
+| -------- | ------------------------------------------------------------------ | -------------- | ---------------- | -------------------------- |
+| RF04C-NW | Banco de dados parametrizado para múltiplos tipos de monitoramento | Alta           | 8                | Emissões, Ruídos, Erosão   |
+| RF05C-NW | Integração com ZS, GIZA e TimeStamp                                | Alta           | 13               | Emissões, Ruídos, Erosão   |
+
+## Epic 3: Tratamento
+
+**Objetivo**: Processamento e análise de dados coletados
+
+| **Item** | **Descrição**                            | **Prioridade** | **Story Points** | **Programas Beneficiados** |
+| -------- | ---------------------------------------- | -------------- | ---------------- | -------------------------- |
+| RF23-NW  | Análise de impacto na fauna (Ruídos)     | Baixa          | 13               | Ruídos                     |
+| RF35-NW  | Análise de tendência temporal da erosão  | Baixa          | 21               | Erosão                     |
+| RF36-NW  | Eficácia de medidas mitigadoras (Erosão) | Baixa          | 8                | Erosão                     |
+
+## Epic 4: Distribuição
+
+**Objetivo**: Visualização, relatórios e compartilhamento de dados
 
 | **Item** | **Descrição**                                 | **Prioridade** | **Story Points** | **Programas Beneficiados** |
 | -------- | --------------------------------------------- | -------------- | ---------------- | -------------------------- |
@@ -83,75 +94,42 @@ Exemplo: **RF01C-NW** = Primeiro requisito funcional consolidado do módulo Newa
 | RF31-NW  | Mapa de calor com níveis de erosão por área   | Média          | 8                | Erosão                     |
 | RF06C-NW | Sistema de download por lote e individual     | Média          | 5                | Emissões, Ruídos, Erosão   |
 | RF08C-NW | Sistema unificado de geração de relatórios    | Média          | 8                | Emissões, Ruídos, Erosão   |
-
-## Epic 4: Análises Especializadas
-
-**Objetivo**: Funcionalidades específicas por programa
-
-| **Item** | **Descrição**                                      | **Prioridade** | **Story Points** | **Programas Beneficiados** |
-| -------- | -------------------------------------------------- | -------------- | ---------------- | -------------------------- |
-| RF10-NW  | Exportação para Excel (Emissões)                   | Média          | 5                | Emissões                   |
-| RF12-NW  | Inserção manual de dados complementares (Emissões) | Baixa          | 3                | Emissões                   |
-| RF23-NW  | Análise de impacto na fauna (Ruídos)               | Baixa          | 13               | Ruídos                     |
-| RF24-NW  | Registro de impacto em área urbana (Ruídos)        | Baixa          | 5                | Ruídos                     |
-| RF35-NW  | Análise de tendência temporal da erosão            | Baixa          | 21               | Erosão                     |
-| RF36-NW  | Eficácia de medidas mitigadoras (Erosão)           | Baixa          | 8                | Erosão                     |
+| RF10-NW  | Exportação para Excel (Emissões)              | Média          | 5                | Emissões                   |
+| RF24-NW  | Registro de impacto em área urbana (Ruídos)   | Baixa          | 5                | Ruídos                     |
 
 ## Backlog Detalhado por Prioridade
 
-### **Alta Prioridade - MVP (Sprint 1-3)**
+### **Alta Prioridade - MVP**
 
-| **Item** | **Descrição**                     | **Prioridade** | **Story Points** | **Programa**             |
-| -------- | --------------------------------- | -------------- | ---------------- | ------------------------ |
-| RF01C-NW | Interface genérica de coleta      | Alta           | 8                | Emissões, Ruídos, Erosão |
-| RF02C-NW | Sistema offline com sincronização | Alta           | 13               | Emissões, Ruídos, Erosão |
-| RF04C-NW | Banco de dados parametrizado      | Alta           | 8                | Emissões, Ruídos, Erosão |
-| RF05C-NW | Integração ZS/GIZA/TimeStamp      | Alta           | 13               | Emissões, Ruídos, Erosão |
-| RF02-NW  | Ficha CO₂, CO e SO₂               | Alta           | 5                | Emissões                 |
-| RF14-NW  | Registro níveis sonoros           | Alta           | 5                | Ruídos                   |
-| RF26-NW  | Medições de perda de solo         | Alta           | 8                | Erosão                   |
+| **Item** | **Descrição**                     | **Epic**      | **Story Points** | **Programa**             |
+| -------- | --------------------------------- | ------------- | ---------------- | ------------------------ |
+| RF01C-NW | Interface genérica de coleta      | Coleta        | 8                | Emissões, Ruídos, Erosão |
+| RF02C-NW | Sistema offline com sincronização | Coleta        | 13               | Emissões, Ruídos, Erosão |
+| RF04C-NW | Banco de dados parametrizado      | Armazenamento | 8                | Emissões, Ruídos, Erosão |
+| RF05C-NW | Integração ZS/GIZA/TimeStamp      | Armazenamento | 13               | Emissões, Ruídos, Erosão |
+| RF02-NW  | Ficha CO₂, CO e SO₂               | Coleta        | 5                | Emissões                 |
+| RF14-NW  | Registro níveis sonoros           | Coleta        | 5                | Ruídos                   |
+| RF26-NW  | Medições de perda de solo         | Coleta        | 8                | Erosão                   |
 
-### **Média Prioridade - Funcionalidades Completas (Sprint 4-6)**
+### **Média Prioridade - Funcionalidades Completas**
 
-| **Item** | **Descrição**                     | **Prioridade** | **Story Points** | **Programa**             |
-| -------- | --------------------------------- | -------------- | ---------------- | ------------------------ |
-| RF03C-NW | Upload automático evidências      | Média          | 8                | Emissões, Ruídos, Erosão |
-| RF07C-NW | Tabela filtrável e exportável     | Média          | 5                | Emissões, Ruídos, Erosão |
-| RF06C-NW | Sistema de download               | Média          | 5                | Emissões, Ruídos, Erosão |
-| RF08C-NW | Geração de relatórios unificada   | Média          | 8                | Emissões, Ruídos, Erosão |
-| RF07-NW  | Dashboard farol de cor (Emissões) | Média          | 8                | Emissões                 |
-| RF19-NW  | Dashboard níveis de ruído         | Média          | 8                | Ruídos                   |
-| RF31-NW  | Mapa de calor erosão              | Média          | 8                | Erosão                   |
-| RF10-NW  | Exportação Excel                  | Média          | 5                | Emissões                 |
+| **Item** | **Descrição**                     | **Epic**     | **Story Points** | **Programa**             |
+| -------- | --------------------------------- | ------------ | ---------------- | ------------------------ |
+| RF03C-NW | Upload automático evidências      | Coleta       | 8                | Emissões, Ruídos, Erosão |
+| RF07C-NW | Tabela filtrável e exportável     | Distribuição | 5                | Emissões, Ruídos, Erosão |
+| RF06C-NW | Sistema de download               | Distribuição | 5                | Emissões, Ruídos, Erosão |
+| RF08C-NW | Geração de relatórios unificada   | Distribuição | 8                | Emissões, Ruídos, Erosão |
+| RF07-NW  | Dashboard farol de cor (Emissões) | Distribuição | 8                | Emissões                 |
+| RF19-NW  | Dashboard níveis de ruído         | Distribuição | 8                | Ruídos                   |
+| RF31-NW  | Mapa de calor erosão              | Distribuição | 8                | Erosão                   |
+| RF10-NW  | Exportação Excel                  | Distribuição | 5                | Emissões                 |
 
-### **Baixa Prioridade - Otimizações (Sprint 7+)**
+### **Baixa Prioridade - Otimizações**
 
-| **Item** | **Descrição**                   | **Prioridade** | **Story Points** | **Programa** |
-| -------- | ------------------------------- | -------------- | ---------------- | ------------ |
-| RF12-NW  | Dados complementares (Emissões) | Baixa          | 3                | Emissões     |
-| RF23-NW  | Análise impacto fauna           | Baixa          | 13               | Ruídos       |
-| RF24-NW  | Impacto área urbana             | Baixa          | 5                | Ruídos       |
-| RF35-NW  | Análise temporal erosão         | Baixa          | 21               | Erosão       |
-| RF36-NW  | Eficácia medidas mitigadoras    | Baixa          | 8                | Erosão       |
-
-## Riscos e Mitigações
-
-| **Risco**                               | **Probabilidade** | **Impacto** | **Mitigação**                                           |
-| --------------------------------------- | ----------------- | ----------- | ------------------------------------------------------- |
-| Over-engineering da solução genérica    | Média             | Alto        | Implementar MVP específico primeiro, generalizar depois |
-| Conflitos de requisitos entre programas | Baixa             | Médio       | Validação contínua com stakeholders de ambos programas  |
-| Dependências técnicas complexas         | Média             | Alto        | Arquitetura modular com baixo acoplamento               |
-
-## Métricas de Sucesso
-
-- **Reuso de Código**: Meta de 60% de componentes compartilhados
-- **Velocidade de Desenvolvimento**: Redução de 30% no time-to-market do segundo programa
-- **Satisfação do Usuário**: Score NPS > 8 para interface unificada
-- **Qualidade**: Redução de 25% em bugs relacionados a funcionalidades similares
-
-## Próximos Passos
-
-1. **Validação do Backlog** com stakeholders de ambos os programas
-2. **Definição da Arquitetura** para suportar consolidações propostas
-3. **Prototipagem** das interfaces genéricas identificadas
-4. **Planejamento Detalhado** das próximas entregas
+| **Item** | **Descrição**                   | **Epic**     | **Story Points** | **Programa** |
+| -------- | ------------------------------- | ------------ | ---------------- | ------------ |
+| RF12-NW  | Dados complementares (Emissões) | Coleta       | 3                | Emissões     |
+| RF23-NW  | Análise impacto fauna           | Tratamento   | 13               | Ruídos       |
+| RF24-NW  | Impacto área urbana             | Distribuição | 5                | Ruídos       |
+| RF35-NW  | Análise temporal erosão         | Tratamento   | 21               | Erosão       |
+| RF36-NW  | Eficácia medidas mitigadoras    | Tratamento   | 8                | Erosão       |
