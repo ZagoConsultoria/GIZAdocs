@@ -78,5 +78,12 @@ nav:
               - PRAD: modulos/axs/modelagem/prad.md
               - Plantio: modulos/axs/modelagem/plantio.md
           - Backlog: modulos/axs/backlog_geral.md
+      - Engeform:
+          - Discovery:
+              - 28/07 - Meio Socio: modulos/engeform/discovery/engeform.md
+          - Priorização de Requisitos:
+              - PRAD: modulos/engeform/priorizacao/engeform.md
+              - Plantio: modulos/engeform/priorizacao/engeform.md
+          - Fichas de Coleta: modulos/engeform/fichas_coleta/engeform.md 
   - Rastreabilidade:
       - Matriz de Rastreabilidade: rastreabilidade/matriz.md
