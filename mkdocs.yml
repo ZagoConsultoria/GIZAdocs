@@ -81,9 +81,8 @@ nav:
       - Engeform:
           - Discovery:
               - 28/07 - Meio Socio: modulos/engeform/discovery/engeform.md
-          - Priorização de Requisitos:
-              - PRAD: modulos/engeform/priorizacao/engeform.md
-              - Plantio: modulos/engeform/priorizacao/engeform.md
+          - Elicitação de Requisitos: modulos/engeform/elicitacao/engeform.md
+          - Priorização de Requisitos:modulos/engeform/elicitacao/engeform.md
           - Fichas de Coleta: modulos/engeform/fichas_coleta/engeform.md 
   - Rastreabilidade:
       - Matriz de Rastreabilidade: rastreabilidade/matriz.md
