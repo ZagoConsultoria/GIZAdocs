@@ -22,7 +22,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                                                                                           |
 | Rastreabilidade              | RF01-NW                                                                                                                                                                                            |
 
-# [US02-NW] - Utilizar sistema offline {#us02-nw}
+# [US02-NW] - Utilizar ZS offline {#us02-nw}
 
 ### Tabela 2: História de Usuário – Funcionamento offline
 
@@ -30,7 +30,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | USx(número de identificação) | US02-NW                                                                                                                                        |
 | Tema                         | Utilizar sistema offline                                                                                                                       |
-| Descrição                    | Eu, como analista ambiental, desejo que o sistema funcione offline durante as coletas para que eu possa registrar os dados mesmo sem internet. |
+| Descrição                    | Eu, como analista ambiental, desejo que o sistema ZS funcione offline durante as coletas para que eu possa registrar os dados mesmo sem internet. |
 | Critérios de Aceitação       | - O sistema deve abrir e registrar dados sem conexão.<br>- Os dados devem ser sincronizados assim que houver conexão disponível.               |
 | Prioridade Usuário           | Alta                                                                                                                                           |
 | Status                       | Validada                                                                                                                                       |
@@ -78,9 +78,9 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Status                       | Validada                                                                                                                        |
 | Rastreabilidade              | RF05-NW                                                                                                                         |
 
-# [US06-NW] - Notificar sobre problemas na análise {#us06-nw}
+# [US06-NW] - Download de Fotos {#us06-nw}
 
-### Tabela 6: História de Usuário – Notificar problemas
+### Tabela 6: História de Usuário – Download de Fotos
 
 | Item                         | Descrição                                                                                                                                          |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
