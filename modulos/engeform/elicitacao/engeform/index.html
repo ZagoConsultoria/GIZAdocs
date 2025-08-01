@@ -12,7 +12,7 @@
         <link rel="prev" href="../../discovery/engeform/">
       
       
-        <link rel="next" href="../../fichas_coleta/engeform/">
+        <link rel="next" href="../../priorizacao/engeform/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -72,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#elicitacao-de-requisitos-modulo-engeform" class="md-skip">
+          Ir para o conteúdo
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -1625,6 +1630,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1638,6 +1658,70 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-quantitativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo Quantitativo
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1650,12 +1734,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Priorização de Requisitos:modulos/engeform/elicitacao/engeform.md" class="md-nav__link">
+      <a href="../../priorizacao/engeform/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    None
+    Priorização de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
     
   </span>
   
@@ -1792,6 +1899,61 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-quantitativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo Quantitativo
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1810,9 +1972,316 @@
   
 
 
-  <h1>Elicitação de Requisitos</h1>
-
-
+<h1 id="elicitacao-de-requisitos-modulo-engeform">Elicitação de Requisitos - Módulo Engeform</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento apresenta a elicitação de requisitos funcionais para o módulo <strong>Engeform</strong>, dedicado à automatização da coleta e gestão de dados para estudos de impacto ambiental (EIA). Os requisitos foram identificados com base no discovery realizado junto aos stakeholders e na análise das necessidades dos diferentes meios ambientais: físico, socioeconômico e biótico.</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>Definir os requisitos funcionais e não funcionais necessários para implementar um sistema integrado que permita:</p>
+<ul>
+<li>Coleta eficiente de dados primários em campo através de formulários digitais</li>
+<li>Armazenamento centralizado e seguro dos dados coletados</li>
+<li>Processamento e análise dos dados conforme necessidades específicas de cada meio</li>
+<li>Distribuição dos dados através de interfaces de visualização, relatórios e dashboards</li>
+</ul>
+<hr />
+<h2 id="requisitos-funcionais">Requisitos Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Meio Ambiental</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RF01-EG</strong></td>
+<td>Interface de coleta via ZS para dados socioeconômicos</td>
+<td>Socioeconômico</td>
+</tr>
+<tr>
+<td><strong>RF02-EG</strong></td>
+<td>Interface de coleta via ZS para cavidades (espeleologia)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF03-EG</strong></td>
+<td>Interface de coleta via ZS para hidrologia (recursos hídricos superficiais)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF04-EG</strong></td>
+<td>Interface de coleta via ZS para coleta de água (padrão 304)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF05-EG</strong></td>
+<td>Interface de coleta via ZS para ruídos e efeitos estroboscópicos</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF06-EG</strong></td>
+<td>Interface de coleta via ZS para solos (pedologia)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF07-EG</strong></td>
+<td>Interface de coleta via ZS para solos (geomorfologia)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF08-EG</strong></td>
+<td>Interface de coleta via ZS para fauna</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF09-EG</strong></td>
+<td>Interface de coleta via ZS para caracterização florística</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF10-EG</strong></td>
+<td>Interface de coleta via ZS para inventário florestal</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF11-EG</strong></td>
+<td>Sistema de funcionamento offline para todas as fichas de coleta</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF12-EG</strong></td>
+<td>Captura automática de coordenadas GPS (UTM) em todos os formulários</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF13-EG</strong></td>
+<td>Upload automático de fotos georreferenciadas com marca d'água da empresa</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF14-EG</strong></td>
+<td>Sincronização automática dos dados quando conectado à internet</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF15-EG</strong></td>
+<td>Banco de dados parametrizado para múltiplos meios ambientais</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF16-EG</strong></td>
+<td>Sistema de versionamento para controle de alterações nos dados</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF17-EG</strong></td>
+<td>Integração com ZS para recebimento automático dos dados</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF18-EG</strong></td>
+<td>Integração com GIZA para centralização dos dados</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF19-EG</strong></td>
+<td>Integração com SharePoint para backup e compartilhamento</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF20-EG</strong></td>
+<td>Sistema de backup automático dos dados coletados</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF21-EG</strong></td>
+<td>Validação automática de dados obrigatórios nos formulários</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF22-EG</strong></td>
+<td>Tabela filtrável e exportável para dados socioeconômicos</td>
+<td>Socioeconômico</td>
+</tr>
+<tr>
+<td><strong>RF23-EG</strong></td>
+<td>Tabela filtrável e exportável para dados do meio físico</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF24-EG</strong></td>
+<td>Tabela filtrável e exportável para dados do meio biótico</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF25-EG</strong></td>
+<td>Dashboard com gráficos de relevância e tipologia de cavidades</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF26-EG</strong></td>
+<td>Dashboard com gráficos de vazão e níveis de poços (hidrogeologia)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF27-EG</strong></td>
+<td>Dashboard com gráficos de vazão específica (hidrologia)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF28-EG</strong></td>
+<td>Dashboard com gráficos de níveis de ruído (diurno e noturno)</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF29-EG</strong></td>
+<td>Dashboard com gráficos de distribuição granulométrica dos solos</td>
+<td>Físico</td>
+</tr>
+<tr>
+<td><strong>RF30-EG</strong></td>
+<td>Dashboard com gráficos demográficos e socioeconômicos</td>
+<td>Socioeconômico</td>
+</tr>
+<tr>
+<td><strong>RF31-EG</strong></td>
+<td>Dashboard com gráficos de riqueza e abundância de espécies (fauna)</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF32-EG</strong></td>
+<td>Dashboard com gráficos de fitofisionomias e conservação (flora)</td>
+<td>Biótico</td>
+</tr>
+<tr>
+<td><strong>RF33-EG</strong></td>
+<td>Sistema de visualização de fotos por registro</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF34-EG</strong></td>
+<td>Sistema de download de fotos por lote ou individual</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF35-EG</strong></td>
+<td>Sistema de edição controlada de registros via GIZA</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF36-EG</strong></td>
+<td>Geração de relatórios automatizados por meio ambiental</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF37-EG</strong></td>
+<td>Exportação de dados para Excel por meio ambiental</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF38-EG</strong></td>
+<td>Sistema de busca avançada nos dados coletados</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF39-EG</strong></td>
+<td>Sistema de favoritar fotos por registro e download em lote das favoritas</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td><strong>RF40-EG</strong></td>
+<td>Exportação de coordenadas geográficas para planilha Excel</td>
+<td>Todos</td>
+</tr>
+</tbody>
+</table>
+<h2 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Categoria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RNF01-EG</strong></td>
+<td>Sistema deve funcionar offline em dispositivos móveis sem conexão</td>
+<td>Disponibilidade</td>
+</tr>
+<tr>
+<td><strong>RNF02-EG</strong></td>
+<td>Sincronização de dados deve ocorrer em até 5 minutos após conectar à internet</td>
+<td>Performance</td>
+</tr>
+<tr>
+<td><strong>RNF03-EG</strong></td>
+<td>Interface deve ser responsiva para tablets Android e iOS</td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>RNF04-EG</strong></td>
+<td>Sistema deve suportar até 1000 registros simultâneos em campo</td>
+<td>Performance</td>
+</tr>
+<tr>
+<td><strong>RNF05-EG</strong></td>
+<td>Dados devem ser criptografados durante armazenamento e transmissão</td>
+<td>Segurança</td>
+</tr>
+<tr>
+<td><strong>RNF06-EG</strong></td>
+<td>Sistema deve ter backup automático a cada 24 horas</td>
+<td>Confiabilidade</td>
+</tr>
+<tr>
+<td><strong>RNF07-EG</strong></td>
+<td>Interface deve seguir padrões de acessibilidade WCAG 2.1</td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td><strong>RNF08-EG</strong></td>
+<td>Sistema deve funcionar com conectividade 3G ou superior</td>
+<td>Compatibilidade</td>
+</tr>
+<tr>
+<td><strong>RNF09-EG</strong></td>
+<td>Fotos devem ser comprimidas automaticamente para otimizar armazenamento</td>
+<td>Performance</td>
+</tr>
+<tr>
+<td><strong>RNF10-EG</strong></td>
+<td>Sistema deve ter tempo de resposta inferior a 3 segundos para consultas</td>
+<td>Performance</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="resumo-quantitativo">Resumo Quantitativo</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Tipo de Requisito</strong></th>
+<th><strong>Quantidade</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Requisitos Funcionais</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Requisitos Não Funcionais</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>50</strong></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1867,13 +2336,13 @@
         
         
           
-          <a href="../../fichas_coleta/engeform/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Fichas de Coleta">
+          <a href="../../priorizacao/engeform/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Priorização de Requisitos">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Próximo
               </span>
               <div class="md-ellipsis">
-                Fichas de Coleta
+                Priorização de Requisitos
               </div>
             </div>
             <div class="md-footer__button md-icon">

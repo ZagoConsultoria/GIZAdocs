@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../../elicitacao/engeform/">
+        <link rel="prev" href="../../modelagem/engeform/">
       
       
         <link rel="next" href="../../../../rastreabilidade/matriz/">
@@ -1647,12 +1647,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Priorização de Requisitos:modulos/engeform/elicitacao/engeform.md" class="md-nav__link">
+      <a href="../../priorizacao/engeform/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    None
+    Priorização de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
     
   </span>
   
@@ -2502,7 +2525,7 @@
 <h4 id="meio-socioeconomico">Meio Socioeconômico</h4>
 <ul>
 <li><strong>Fichas</strong>: 1</li>
-<li>Ficha de Coleta Socio (16 campos estruturados)</li>
+<li>Ficha de Coleta Socio (35 campos estruturados)</li>
 <li><strong>Status</strong>: ✅ Completo</li>
 </ul>
 <h4 id="meio-fisico">Meio Físico</h4>
@@ -2545,6 +2568,106 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Data da Entrevista</td>
+<td>Data</td>
+<td>Data (dd/mm/aaaa)</td>
+</tr>
+<tr>
+<td>Nome da Comunidade/Localidade</td>
+<td>Texto</td>
+<td>Campo de texto livre</td>
+</tr>
+<tr>
+<td>Entrevistado(a) – Nome Completo</td>
+<td>Texto</td>
+<td>Campo de texto livre</td>
+</tr>
+<tr>
+<td>Sexo</td>
+<td>Seleção única</td>
+<td>Masculino; Feminino; Outro</td>
+</tr>
+<tr>
+<td>Idade</td>
+<td>Numérico</td>
+<td>Valor numérico</td>
+</tr>
+<tr>
+<td>Telefone de Contato</td>
+<td>Numérico</td>
+<td>Número com DDD</td>
+</tr>
+<tr>
+<td>Coordenadas geográficas</td>
+<td>Geolocalização</td>
+<td>Latitude / Longitude</td>
+</tr>
+<tr>
+<td>Tempo de residência no local</td>
+<td>Seleção única</td>
+<td>Menos de 1 ano; 1 a 5 anos; 6 a 10 anos; Mais de 10 anos</td>
+</tr>
+<tr>
+<td>Naturalidade</td>
+<td>Texto</td>
+<td>Município/Estado</td>
+</tr>
+<tr>
+<td>Número de pessoas na residência</td>
+<td>Numérico</td>
+<td>Valor numérico</td>
+</tr>
+<tr>
+<td>Faixa etária dos moradores</td>
+<td>Seleção múltipla</td>
+<td>Crianças (0–12); Adolescentes (13–17); Adultos (18–59); Idosos (60+)</td>
+</tr>
+<tr>
+<td>Grau de escolaridade do entrevistado</td>
+<td>Seleção única</td>
+<td>Analfabeto; Ensino Fundamental Incompleto/Completo; Médio Incompleto/Completo; Superior</td>
+</tr>
+<tr>
+<td>Fonte de renda principal da família</td>
+<td>Seleção única</td>
+<td>Agricultura; Comércio; Serviço público; Trabalho informal; Bolsa Família; Outros</td>
+</tr>
+<tr>
+<td>Valor médio da renda mensal familiar (R$)</td>
+<td>Numérico</td>
+<td>Valor em reais</td>
+</tr>
+<tr>
+<td>Recebe algum benefício social?</td>
+<td>Seleção única</td>
+<td>Sim; Não</td>
+</tr>
+<tr>
+<td>Se sim, qual(is)?</td>
+<td>Seleção múltipla</td>
+<td>Bolsa Família; BPC; Aposentadoria; Auxílio Brasil; Outros</td>
+</tr>
+<tr>
+<td>Possui documento de posse ou escritura?</td>
+<td>Seleção única</td>
+<td>Sim; Não</td>
+</tr>
+<tr>
+<td>Tipo de moradia</td>
+<td>Seleção única</td>
+<td>Alvenaria; Madeira; Taipa; Mista; Palafita</td>
+</tr>
+<tr>
+<td>Condição da moradia</td>
+<td>Seleção única</td>
+<td>Boa; Regular; Precária</td>
+</tr>
+<tr>
+<td>Acesso à energia elétrica?</td>
+<td>Seleção única</td>
+<td>Sim; Não</td>
+</tr>
 <tr>
 <td>Acesso à água potável?</td>
 <td>Seleção única</td>
@@ -2826,16 +2949,6 @@
 <td>Tipo de corpo d'água</td>
 <td>Seleção única + Campos condicionais</td>
 <td>Curso d'água; Massa d'água; Manancial</td>
-</tr>
-<tr>
-<td>Largura (se Curso d'água)</td>
-<td>Numérico (condicional)</td>
-<td>Campo numérico inteiro em metros</td>
-</tr>
-<tr>
-<td>Fluxo (se Curso d'água)</td>
-<td>Seleção única (condicional)</td>
-<td>Parado; Lento; Médio; Alto</td>
 </tr>
 </tbody>
 </table>
@@ -3272,7 +3385,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../../elicitacao/engeform/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Elicitação de Requisitos">
+          <a href="../../modelagem/engeform/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Histórias de Usuário">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -3282,7 +3395,7 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Elicitação de Requisitos
+                Histórias de Usuário
               </div>
             </div>
           </a>
