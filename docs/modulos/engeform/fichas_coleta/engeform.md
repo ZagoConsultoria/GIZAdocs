@@ -9,7 +9,7 @@ Este documento consolida todas as fichas de coleta de dados do módulo Engeform,
 #### Meio Socioeconômico
 
 - **Fichas**: 1
-  - Ficha de Coleta Socio (16 campos estruturados)
+  - Ficha de Coleta Socio (35 campos estruturados)
 - **Status**: ✅ Completo
 
 #### Meio Físico
@@ -45,24 +45,44 @@ Este documento consolida todas as fichas de coleta de dados do módulo Engeform,
 
 ## Meio Socio
 
-| **Campo**                                        | **Tipo de Resposta** | **Opções/Formato**                                             |
-| ------------------------------------------------ | -------------------- | -------------------------------------------------------------- |
-| Acesso à água potável?                           | Seleção única        | Sim; Não                                                       |
-| Fonte de abastecimento de água                   | Seleção única        | Poço; Cisterna; Carro-pipa; Rede pública; Outro                |
-| Acesso à coleta de lixo?                         | Seleção única        | Sim; Não                                                       |
-| Sistema de esgotamento sanitário                 | Seleção única        | Rede pública; Fossa; Céu aberto; Não possui                    |
-| Distância até escola mais próxima (km)           | Numérico             | Valor em quilômetros                                           |
-| Distância até unidade de saúde mais próxima (km) | Numérico             | Valor em quilômetros                                           |
-| Frequenta alguma associação ou coletivo?         | Seleção única        | Sim; Não                                                       |
-| Qual(is)?                                        | Seleção múltipla     | Associação de moradores; Igreja; Sindicato; Cooperativa; Outro |
-| Usa o território para subsistência?              | Seleção única        | Sim; Não                                                       |
-| Se sim, como?                                    | Seleção múltipla     | Agricultura; Extrativismo; Criação de animais; Pesca; Outros   |
-| Conhece o projeto em análise?                    | Seleção única        | Sim; Não                                                       |
-| O que espera do projeto?                         | Texto livre          | Campo de resposta aberta                                       |
-| Tem alguma preocupação com o projeto?            | Texto livre          | Campo de resposta aberta                                       |
-| Sugestão de contrapartida da empresa             | Texto livre          | Campo de resposta aberta                                       |
-| Registro Fotográfico                             | Arquivo/Link         | Número ou link das fotos associadas                            |
-| Outras observações relevantes                    | Texto livre          | Campo de resposta aberta                                       |
+| **Campo**                                        | **Tipo de Resposta** | **Opções/Formato**                                                                      |
+| ------------------------------------------------ | -------------------- | --------------------------------------------------------------------------------------- |
+| Data da Entrevista                               | Data                 | Data (dd/mm/aaaa)                                                                       |
+| Nome da Comunidade/Localidade                    | Texto                | Campo de texto livre                                                                    |
+| Entrevistado(a) – Nome Completo                  | Texto                | Campo de texto livre                                                                    |
+| Sexo                                             | Seleção única        | Masculino; Feminino; Outro                                                              |
+| Idade                                            | Numérico             | Valor numérico                                                                          |
+| Telefone de Contato                              | Numérico             | Número com DDD                                                                          |
+| Coordenadas geográficas                          | Geolocalização       | Latitude / Longitude                                                                    |
+| Tempo de residência no local                     | Seleção única        | Menos de 1 ano; 1 a 5 anos; 6 a 10 anos; Mais de 10 anos                                |
+| Naturalidade                                     | Texto                | Município/Estado                                                                        |
+| Número de pessoas na residência                  | Numérico             | Valor numérico                                                                          |
+| Faixa etária dos moradores                       | Seleção múltipla     | Crianças (0–12); Adolescentes (13–17); Adultos (18–59); Idosos (60+)                    |
+| Grau de escolaridade do entrevistado             | Seleção única        | Analfabeto; Ensino Fundamental Incompleto/Completo; Médio Incompleto/Completo; Superior |
+| Fonte de renda principal da família              | Seleção única        | Agricultura; Comércio; Serviço público; Trabalho informal; Bolsa Família; Outros        |
+| Valor médio da renda mensal familiar (R$)        | Numérico             | Valor em reais                                                                          |
+| Recebe algum benefício social?                   | Seleção única        | Sim; Não                                                                                |
+| Se sim, qual(is)?                                | Seleção múltipla     | Bolsa Família; BPC; Aposentadoria; Auxílio Brasil; Outros                               |
+| Possui documento de posse ou escritura?          | Seleção única        | Sim; Não                                                                                |
+| Tipo de moradia                                  | Seleção única        | Alvenaria; Madeira; Taipa; Mista; Palafita                                              |
+| Condição da moradia                              | Seleção única        | Boa; Regular; Precária                                                                  |
+| Acesso à energia elétrica?                       | Seleção única        | Sim; Não                                                                                |
+| Acesso à água potável?                           | Seleção única        | Sim; Não                                                                                |
+| Fonte de abastecimento de água                   | Seleção única        | Poço; Cisterna; Carro-pipa; Rede pública; Outro                                         |
+| Acesso à coleta de lixo?                         | Seleção única        | Sim; Não                                                                                |
+| Sistema de esgotamento sanitário                 | Seleção única        | Rede pública; Fossa; Céu aberto; Não possui                                             |
+| Distância até escola mais próxima (km)           | Numérico             | Valor em quilômetros                                                                    |
+| Distância até unidade de saúde mais próxima (km) | Numérico             | Valor em quilômetros                                                                    |
+| Frequenta alguma associação ou coletivo?         | Seleção única        | Sim; Não                                                                                |
+| Qual(is)?                                        | Seleção múltipla     | Associação de moradores; Igreja; Sindicato; Cooperativa; Outro                          |
+| Usa o território para subsistência?              | Seleção única        | Sim; Não                                                                                |
+| Se sim, como?                                    | Seleção múltipla     | Agricultura; Extrativismo; Criação de animais; Pesca; Outros                            |
+| Conhece o projeto em análise?                    | Seleção única        | Sim; Não                                                                                |
+| O que espera do projeto?                         | Texto livre          | Campo de resposta aberta                                                                |
+| Tem alguma preocupação com o projeto?            | Texto livre          | Campo de resposta aberta                                                                |
+| Sugestão de contrapartida da empresa             | Texto livre          | Campo de resposta aberta                                                                |
+| Registro Fotográfico                             | Arquivo/Link         | Número ou link das fotos associadas                                                     |
+| Outras observações relevantes                    | Texto livre          | Campo de resposta aberta                                                                |
 
 ## Meio Físico
 
@@ -121,8 +141,6 @@ NÃO EXISTE
 | Nível                               | Seleção única                       | Normal; Baixo; Alto                                                  |
 | Condições climáticas                | Seleção única                       | Ensolarado; Parcialmente nublado; Nublado; Chuvoso; Chuva forte      |
 | Tipo de corpo d'água                | Seleção única + Campos condicionais | Curso d'água; Massa d'água; Manancial                                |
-| Largura (se Curso d'água)           | Numérico (condicional)              | Campo numérico inteiro em metros                                     |
-| Fluxo (se Curso d'água)             | Seleção única (condicional)         | Parado; Lento; Médio; Alto                                           |
 
 ### Coleta de Água da 304
 
