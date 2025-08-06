@@ -85,5 +85,12 @@ nav:
           - Priorização de Requisitos: modulos/engeform/priorizacao/engeform.md
           - Histórias de Usuário: modulos/engeform/modelagem/engeform.md
           - Fichas de Coleta: modulos/engeform/fichas_coleta/engeform.md 
+      - Eletronorte:
+          - Discovery:
+              - 6/08: modulos/eletronorte/discovery/eletronorte.md
+          - Elicitação de Requisitos: modulos/eletronorte/elicitacao/eletronorte.md
+          - Priorização de Requisitos: modulos/eletronorte/priorizacao/eletronorte.md
+          - Histórias de Usuário: modulos/eletronorte/modelagem/eletronorte.md
+          - Fichas de Coleta: modulos/eletronorte/fichas_coleta/eletronorte.md  
   - Rastreabilidade:
       - Matriz de Rastreabilidade: rastreabilidade/matriz.md
