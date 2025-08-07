@@ -44,7 +44,8 @@ extra_css:
 nav:
   - Início: index.md
   - Templates:
-      - Roteiro Discovery: template/roteiro.md
+      - Roteiro Discovery: template/roteiro_discovery.md
+      - Roteiro Teste Simulado: template/roteiro_teste.md
       - Roteiro Teams: template/teams.md
   - Módulos:
       - Newave:
