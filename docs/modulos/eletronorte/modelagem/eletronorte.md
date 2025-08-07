@@ -224,13 +224,29 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 
 ---
 
-# [US14-EL] - Gerar relatórios mensais automaticamente {#us14-el}
+# [US14-EL] - Organizar fotos automaticamente no SharePoint {#us14-el}
 
-### Tabela 14: História de Usuário – Gerar relatórios mensais automaticamente
+### Tabela 14: História de Usuário – Organizar fotos automaticamente no SharePoint
+
+| Item                         | Descrição                                                                                                                                                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US14-EL                                                                                                                                                                                                        |
+| Tema                         | Organizar fotos automaticamente no SharePoint                                                                                                                                                                  |
+| Descrição                    | Eu, como coordenador técnico, desejo que as fotos dos registros sejam organizadas automaticamente no SharePoint por categoria e data para facilitar o acesso e compartilhamento com a equipe e cliente.        |
+| Critérios de Aceitação       | - Estrutura de pastas por ano/mês/dia no SharePoint.<br>- Subpastas por categoria (Irrigação, Adubação, Pragas, Manutenção, Mudas).<br>- Nomenclatura padronizada dos arquivos.<br>- Sincronização automática. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                                           |
+| Status                       | Validada                                                                                                                                                                                                       |
+| Rastreabilidade              | RF19-EL                                                                                                                                                                                                        |
+
+---
+
+# [US15-EL] - Gerar relatórios mensais automaticamente {#us15-el}
+
+### Tabela 15: História de Usuário – Gerar relatórios mensais automaticamente
 
 | Item                         | Descrição                                                                                                                                                                           |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| USx(número de identificação) | US14-EL                                                                                                                                                                             |
+| USx(número de identificação) | US15-EL                                                                                                                                                                             |
 | Tema                         | Gerar relatórios mensais automaticamente                                                                                                                                            |
 | Descrição                    | Eu, como coordenador técnico, desejo gerar relatórios mensais automaticamente para não precisar montar relatórios manualmente para o cliente como é feito atualmente.               |
 | Critérios de Aceitação       | - Template baseado no modelo atual da Eletronorte.<br>- Inserção automática de fotos favoritadas.<br>- Compilação automática de dados do período.<br>- Geração em formato Word/PDF. |
@@ -240,13 +256,13 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 
 ---
 
-# [US15-EL] - Visualizar dashboards de acompanhamento {#us15-el}
+# [US16-EL] - Visualizar dashboards de acompanhamento {#us16-el}
 
-### Tabela 15: História de Usuário – Visualizar dashboards de acompanhamento
+### Tabela 16: História de Usuário – Visualizar dashboards de acompanhamento
 
 | Item                         | Descrição                                                                                                                                                                                     |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| USx(número de identificação) | US15-EL                                                                                                                                                                                       |
+| USx(número de identificação) | US16-EL                                                                                                                                                                                       |
 | Tema                         | Visualizar dashboards de acompanhamento                                                                                                                                                       |
 | Descrição                    | Eu, como gestor de projeto, desejo visualizar indicadores do viveiro em dashboards para acompanhar o desempenho e tomar decisões estratégicas baseadas em dados consolidados.                 |
 | Critérios de Aceitação       | - Gráficos de crescimento de mudas por espécie.<br>- Indicadores de taxa de mortalidade.<br>- Métricas de irrigação e adubação.<br>- Alertas de pragas e doenças.<br>- Comparações temporais. |
@@ -256,13 +272,13 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 
 ---
 
-# [US16-EL] - Editar registros de forma controlada {#us16-el}
+# [US17-EL] - Editar registros de forma controlada {#us17-el}
 
-### Tabela 16: História de Usuário – Editar registros de forma controlada
+### Tabela 17: História de Usuário – Editar registros de forma controlada
 
 | Item                         | Descrição                                                                                                                                                                             |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| USx(número de identificação) | US16-EL                                                                                                                                                                               |
+| USx(número de identificação) | US17-EL                                                                                                                                                                               |
 | Tema                         | Editar registros de forma controlada                                                                                                                                                  |
 | Descrição                    | Eu, como coordenador técnico, desejo editar registros quando necessário para corrigir erros sem perder a rastreabilidade das alterações realizadas.                                   |
 | Critérios de Aceitação       | - Permissão de edição apenas para coordenadores.<br>- Histórico de alterações (auditoria).<br>- Justificativa obrigatória para edições.<br>- Notificação de alterações para a equipe. |
@@ -278,8 +294,7 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 
 | **Prioridade** | **Quantidade** | **Histórias**       |
 | -------------- | -------------- | ------------------- |
-| **Alta**       | 14             | US01-EL até US14-EL |
-| **Média**      | 1              | US16-EL             |
-| **Baixa**      | 1              | US15-EL             |
-| **Total**      | **16**         | -                   |
-
+| **Alta**       | 15             | US01-EL até US15-EL |
+| **Média**      | 1              | US17-EL             |
+| **Baixa**      | 1              | US16-EL             |
+| **Total**      | **17**         | -                   |
