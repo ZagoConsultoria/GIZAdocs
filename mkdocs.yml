@@ -105,3 +105,6 @@ nav:
       - Eletronorte: rastreabilidade/eletronorte.md
       - Engeform: rastreabilidade/engeform.md
       - Newave: rastreabilidade/newave.md
+  - NPS:
+      - 304: NPS/304.md
+      - Newave: NPS/newave.md

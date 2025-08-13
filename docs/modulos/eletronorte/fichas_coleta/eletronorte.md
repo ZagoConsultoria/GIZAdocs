@@ -4,36 +4,6 @@
 
 Este documento apresenta as fichas de coleta de dados para o módulo **Eletronorte**, focado no acompanhamento de atividades de viveiro e gestão de mudas para o projeto da Estação Ecológica (ESEC). O sistema visa automatizar a coleta de dados diários do viveiro, substituindo formulários manuais e integrando com sistemas de relatórios automatizados.
 
-### Resumo das Fichas
-
-#### Acompanhamento de Viveiro
-
-- **Fichas**: 1
-  - Ficha de Acompanhamento Diário de Atividades no Viveiro (58 campos estruturados)
-- **Funcionalidades**:
-  - Coleta offline no ZS
-  - Sincronização automática com GIZA
-  - Sistema de favoritar fotos
-  - Geração automática de relatórios
-- **Status**: ✅ Completo
-
-### Categorias de Dados
-
-| **Categoria**         | **Quantidade de Campos** |
-| --------------------- | ------------------------ |
-| Dados Gerais          | 5                        |
-| Irrigação             | 6                        |
-| Adubação              | 8                        |
-| Pragas e Doenças      | 8                        |
-| Manutenção            | 8                        |
-| Registro Fotográfico  | 4                        |
-| Contagem de Mudas     | 11                       |
-| Observações Gerais    | 3                        |
-| Metadados Automáticos | 5                        |
-| **TOTAL**             | **58**                   |
-
----
-
 ## Ficha de Acompanhamento Diário - Viveiro
 
 ### Seção 1: Dados Gerais
@@ -96,23 +66,23 @@ Este documento apresenta as fichas de coleta de dados para o módulo **Eletronor
 | Observações sobre a manutenção geral          | Texto longo          | Informações complementares        |
 | Fotos das atividades de manutenção            | Upload múltiplo      | Anexar múltiplas imagens          |
 
-### Seção 6: Contagem e Medição de Mudas
+### Seção 6: Plantio
 
-| **Campo**                                    | **Tipo de Resposta** | **Opções/Formato**               |
-| -------------------------------------------- | -------------------- | -------------------------------- |
-| A contagem de mudas foi atualizada hoje?     | Sim/Não              | Sim; Não                         |
-| Foi realizada medição de altura ou diâmetro? | Sim/Não              | Sim; Não                         |
-| Se sim, quais espécies foram medidas?        | Texto livre          | Listagem das espécies medidas    |
-| Altura média das mudas (cm)                  | Numérico decimal     | Valor com até 2 casas decimais   |
-| Diâmetro médio das mudas (mm)                | Numérico decimal     | Valor com até 2 casas decimais   |
-| Quantidade total de mudas                    | Numérico             | Número inteiro                   |
-| Houve alteração significativa no número?     | Sim/Não              | Sim; Não                         |
-| Se sim, especifique a alteração              | Texto livre          | Descrição da alteração observada |
-| As informações foram registradas em sistema? | Sim/Não              | Sim; Não                         |
-| Qual sistema/local foi utilizado?            | Texto livre          | Nome do sistema ou local         |
-| Fotos das mudas medidas                      | Upload múltiplo      | Anexar múltiplas imagens         |
+| **Campo**                            | **Tipo de Resposta** | **Opções/Formato** |
+| ------------------------------------ | -------------------- | ------------------ |
+| Qual espécie foi plantada (semeada)? | Texto livre          | Nome da espécie    |
+| Quantidade de sementes?              | Numérico             | Número inteiro     |
+| Tipo de semeadura?                   | Seleção única        | Direta; Indireta   |
+| Data de plantio                      | Data                 | dd/mm/aaaa         |
 
-### Seção 7: Observações Gerais
+### Seção 7: Coleta de sementes
+
+| **Campo**       | **Tipo de Resposta** | **Opções/Formato** |
+| --------------- | -------------------- | ------------------ |
+| Data de coleta? | Data                 | dd/mm/aaaa         |
+| Local?          | Texto livre          | Nome do local      |
+
+### Seção 8: Observações Gerais
 
 | **Campo**                         | **Tipo de Resposta** | **Opções/Formato**                   |
 | --------------------------------- | -------------------- | ------------------------------------ |
@@ -120,11 +90,48 @@ Este documento apresenta as fichas de coleta de dados para o módulo **Eletronor
 | Sugestões de melhoria             | Texto longo          | Espaço livre para sugestões          |
 | Destaques e observações especiais | Texto longo          | Espaço livre para destaques          |
 
-### Seção 8: Metadados Automáticos (Capturados pelo Sistema)
-
-| **Campo**             | **Tipo de Captura** | **Formato**                  |
-| --------------------- | ------------------- | ---------------------------- |
-| Coordenadas GPS       | Automática          | Latitude/Longitude (WGS84)   |
-| Timestamp de criação  | Automática          | dd/mm/aaaa HH:MM:SS          |
-
 ---
+
+### Seção 9: Contagem de Mudas Detalhada
+
+**Espécies Disponíveis:**
+
+- Amburana — Amburana cearensis
+- Angico vermelho — Anadenanthera macrocarpa
+- Aroeira — Astronium urundeuva
+- Cagaita — Eugenia dysenterica
+- Candeia — Plathymenia foliolosa
+- Chicha — Sterculia striata
+- Copaíba — Copaifera langsdorffii
+- Embaúba — Cecropia pachystachya
+- Ipê-amarelo felpudo — Zeyheria tuberculosa
+- Ipê-branco — Tabebuia roseo-alba
+- Ipê-rosa — Handroanthus heptaphyllus
+- Ipê-roxo — Handroanthus impetiginosus
+- Jacarandá — Jacaranda micrantha
+- Jurema-branca — Mimosa verrucosa
+- Mutamba — Guazuma ulmifolia
+- Pacari — Lafoensia pacari
+- Parkia — Parkia platycephala
+
+**Fluxo de uso:**
+
+1. Selecionar a espécie.
+2. Informar a altura individual de 20 mudas da espécie selecionada (cm).
+3. Informar a quantidade total de mudas da espécie selecionada.
+4. Informar a quantidade de mudas mortas da espécie selecionada.
+5. Repetir para outras espécies ou salvar ao finalizar.
+
+| Campo                      | Tipo de Resposta | Opções/Formato                |
+| -------------------------- | ---------------- | ----------------------------- |
+| Espécie                    | Seleção única    | Lista de espécies (ver acima) |
+| Altura (cm)        | Numérico decimal | Valor em cm (ex.: 20,0)       |
+| Quantidade total de mudas  | Numérico inteiro | Número inteiro                |
+| Quantidade de mudas mortas | Numérico inteiro | Número inteiro                |
+
+### Seção 10: Metadados Automáticos (Capturados pelo Sistema)
+
+| **Campo**            | **Tipo de Captura** | **Formato**                |
+| -------------------- | ------------------- | -------------------------- |
+| Coordenadas GPS      | Automática          | Latitude/Longitude (WGS84) |
+| Timestamp de criação | Automática          | dd/mm/aaaa HH:MM:SS        |

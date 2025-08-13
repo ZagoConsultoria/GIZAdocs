@@ -1,0 +1,10 @@
+ID	Start time	Completion time	Email	Name	Last modified time	Qual programa você vai dar feedback sobre?	Em uma escala de 0 a 10, qual a probabilidade de você recomendar nosso sistema/plataforma a outra pessoa?	O que mais influenciou sua nota?	Como você avalia a organização da interface e a facilidade de encontrar o que precisa?	O que poderíamos fazer para melhorar a experiência visual ou de navegação no sistema?	
+
+2	8/5/25 10:02:02	8/5/25 10:10:56	bruna.ferrari@grupozago.com.br	Bruna Ferrari		Programa de Emissões Atmosféricas	8	A visão analítica da GIZA é ótima e útil, e o design é agradável. Não é 10 porque algumas funcionalidades podem ser melhoradas.	  Geralmente consigo navegar e encontrar as informações com facilidade	"1. Invés de aparecer os resultados >=60% em evidência, aparecer os resultados >=40%; 
+2. Os resultados >=40% aparecerem em vermelho; 
+3. Aparecer a média do SO2 em evidência, assim como aparece a média do CO e CO2; 
+4. Os registros da tabela de fumaça preta e gases aparecerem na mesma ordem (decrescente ou crescente, mas de preferência decrescente assim como está a tabela de fumaça preta)."	
+3	8/5/25 10:14:20	8/5/25 10:32:31	bruna.ferrari@grupozago.com.br	Bruna Ferrari		Programa de Ruídos	9	A visão analítica é informativa e útil	A navegação é totalmente intuitiva e organizada	"1. Seria legal conseguir baixar os dados em uma planilha. 
+2. Invés de aparecer em destaque "Variação (10min)", seria melhor aparecer o ponto em destaque, porque a o tempo de monitoramento é sempre o mesmo.
+3. Seria mais útil aparecer em destaque os registros >40 dB, invés de >80 dB, porque o limite é 40."	
+4	8/8/25 14:15:14	8/8/25 14:17:26	marcos.gomes@grupozago.com.br	Marcos Victor Gomes de Oliveira		Coleta de ocorrências 304 	10	Foi ótimo poder visualizar os gráficos automaticamente ao subir os dados, além de ter a possibilidade de editar as informações após o trabalho de campo.	  Geralmente consigo navegar e encontrar as informações com facilidade	Acho que pode ser inserido um mapa com os pontos que coletamos em campo. E uma forma de exportar esses pontos em KMZ/KML.	
