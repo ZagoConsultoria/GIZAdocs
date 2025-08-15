@@ -1,0 +1,3574 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Histórias de Usuário - Módulo FUP Gerencial - GIZA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../custom.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historias-de-usuario-modulo-fup-gerencial" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../../.." title="GIZA" class="md-header__button md-logo" aria-label="GIZA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GIZA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de Usuário - Módulo FUP Gerencial
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/HeitorQueAnd/ZS" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ZS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../template/roteiro_discovery/" class="md-tabs__link">
+          
+  
+  
+  Templates
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../230/discovery/fauna/" class="md-tabs__link">
+          
+  
+  
+  Módulos
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../rastreabilidade/230/" class="md-tabs__link">
+          
+  
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../NPS/304/" class="md-tabs__link">
+          
+  
+  
+  NPS
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../indicadores/discovery/visaoanalitica/" class="md-tabs__link">
+          
+  
+  
+  Indicadores
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="GIZA" class="md-nav__button md-logo" aria-label="GIZA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GIZA
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/HeitorQueAnd/ZS" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ZS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Templates
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Templates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../template/roteiro_discovery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roteiro Discovery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../template/roteiro_teste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roteiro Teste Simulado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../template/teams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roteiro Teams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Módulos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Módulos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    230
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            230
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_1" id="__nav_3_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../230/discovery/fauna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    25/06 - Fauna
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../230/elicitacao/fauna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../230/priorizacao/fauna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../230/modelagem/fauna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AXS
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            AXS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/discovery/plantio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16/06 - Pré-Plantio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/discovery/prad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    23/07 - PRAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/elicitacao/prad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PRAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/elicitacao/plantio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plantio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Priorização de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/priorizacao/prad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PRAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/priorizacao/plantio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plantio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_4" id="__nav_3_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Histórias de Usuário
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/modelagem/prad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PRAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/modelagem/plantio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plantio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../axs/backlog_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Eletronorte
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Eletronorte
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../eletronorte/discovery/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6/08 - RDO e Mudas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../eletronorte/elicitacao/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../eletronorte/priorizacao/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../eletronorte/modelagem/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../eletronorte/fichas_coleta/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichas de Coleta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Engeform
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Engeform
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engeform/discovery/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    28/07 - Meio Socio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engeform/elicitacao/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engeform/priorizacao/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engeform/modelagem/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engeform/fichas_coleta/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichas de Coleta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Newave
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Newave
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/discovery/ruidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    23/06 - Ruídos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/discovery/emissoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    22/07 - Emissões Atmosféricas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_2" id="__nav_3_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/elicitacao/emissoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Emissões Atmosféricas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/elicitacao/ruidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ruídos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/elicitacao/erosao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Erosão
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_3" id="__nav_3_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Priorização de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/priorizacao/emissoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Emissões Atmosféricas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/priorizacao/ruidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ruídos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/priorizacao/erosao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Erosão
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_4" id="__nav_3_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Histórias de Usuário
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/modelagem/emissoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Emissões Atmosféricas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/modelagem/ruidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ruídos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/modelagem/erosao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Erosão
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../newave/backlog_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rastreabilidade/230/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    230
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rastreabilidade/axs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AXS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rastreabilidade/eletronorte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eletronorte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rastreabilidade/engeform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engeform
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rastreabilidade/newave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Newave
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    NPS
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            NPS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../NPS/304/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    304
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../NPS/newave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Newave
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Indicadores
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Indicadores
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tecnologia
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Tecnologia
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../indicadores/discovery/visaoanalitica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    15/08 - Discovery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../indicadores/tecnologia/requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../indicadores/tecnologia/historiadeusuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="historias-de-usuario-modulo-fup-gerencial">Histórias de Usuário - Módulo FUP Gerencial</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Durante o processo de elicitação de requisitos para o módulo <strong>FUP Gerencial</strong>, foram identificadas diversas necessidades relacionadas ao preenchimento estruturado de formulários de acompanhamento de projetos, visualização de indicadores em dashboard e geração automatizada de relatórios. Com base nas funcionalidades levantadas e priorizadas, elaboramos histórias de usuário que representam, de forma clara e objetiva, o que o sistema deve permitir que o usuário realize.</p>
+<p>Essas histórias servirão como base para o desenvolvimento incremental da solução, permitindo que os entregáveis sejam organizados de acordo com o valor percebido pelo usuário final, reduzindo retrabalho e aumentando a aderência do sistema às operações reais de gestão de projetos.</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>O objetivo deste documento é apresentar as histórias de usuário que descrevem, do ponto de vista dos Product Owners, gestores de programa e líderes técnicos, as funcionalidades desejadas no sistema. Cada história está associada a um requisito funcional previamente elicitado e tem por finalidade guiar o time de desenvolvimento quanto às expectativas de uso, critérios de aceitação e priorização, facilitando a organização do backlog e a comunicação entre equipe técnica e usuários.</p>
+<hr />
+<h2 id="historias-de-usuario">Histórias de Usuário</h2>
+<hr />
+<h1 id="us01-fup">[US01-FUP] - Criar novo preenchimento FUP</h1>
+<h3 id="tabela-1-historia-de-usuario-criar-novo-preenchimento-fup">Tabela 1: História de Usuário – Criar novo preenchimento FUP</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US01-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Criar novo preenchimento FUP</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo criar um novo preenchimento FUP para meu projeto para documentar o status atual do projeto de forma estruturada e padronizada.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Deve haver formulário de criação acessível.<br>- Sistema deve solicitar informações básicas do projeto.<br>- Associação automática com minha identificação como PO.<br>- Confirmação de criação com ID único.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF01-FUP, RF19-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us02-fup">[US02-FUP] - Navegar por fluxo assistido com blocos</h1>
+<h3 id="tabela-2-historia-de-usuario-navegar-por-fluxo-assistido-com-blocos">Tabela 2: História de Usuário – Navegar por fluxo assistido com blocos</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US02-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Navegar por fluxo assistido com blocos</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo ser guiado através de blocos temáticos organizados para ter clareza sobre o que preencher e não perder nenhuma informação importante.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Interface deve apresentar blocos em sequência lógica.<br>- Navegação clara entre blocos (próximo/anterior).<br>- Indicador de progresso visual.<br>- Validação básica antes de avançar.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF02-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us03-fup">[US03-FUP] - Preencher bloco financeiro</h1>
+<h3 id="tabela-3-historia-de-usuario-preencher-bloco-financeiro">Tabela 3: História de Usuário – Preencher bloco financeiro</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US03-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Preencher bloco financeiro</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo preencher informações financeiras do projeto para que os gestores tenham visibilidade sobre o aspecto orçamentário e possam tomar decisões informadas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Campos para orçamento previsto vs. realizado.<br>- Indicadores de desvio percentual automáticos.<br>- Campos para justificativas de desvios.<br>- Validação de formatos numéricos.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF03-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us04-fup">[US04-FUP] - Preencher bloco de gestão de entregas</h1>
+<h3 id="tabela-4-historia-de-usuario-preencher-bloco-de-gestao-de-entregas">Tabela 4: História de Usuário – Preencher bloco de gestão de entregas</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US04-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Preencher bloco de gestão de entregas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo registrar o status das entregas do projeto para que haja transparência sobre o cumprimento de prazos e identificação de bloqueadores.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Lista de entregas com status atualizável.<br>- Campos para datas previstas vs. realizadas.<br>- Indicador visual de atraso/adiantamento.<br>- Comentários sobre bloqueadores.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF04-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us05-fup">[US05-FUP] - Preencher bloco de gestão da qualidade</h1>
+<h3 id="tabela-5-historia-de-usuario-preencher-bloco-de-gestao-da-qualidade">Tabela 5: História de Usuário – Preencher bloco de gestão da qualidade</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US05-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Preencher bloco de gestão da qualidade</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo registrar indicadores de qualidade do projeto para que aspectos qualitativos sejam considerados na avaliação geral e tomada de decisões.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Métricas de qualidade predefinidas.<br>- Campos para evidências e comentários.<br>- Escala de avaliação padronizada.<br>- Anexo de documentos de suporte.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF05-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us06-fup">[US06-FUP] - Preencher bloco de nível de qualidade técnica</h1>
+<h3 id="tabela-6-historia-de-usuario-preencher-bloco-de-nivel-de-qualidade-tecnica">Tabela 6: História de Usuário – Preencher bloco de nível de qualidade técnica</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US06-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Preencher bloco de nível de qualidade técnica</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo avaliar o nível de qualidade técnica para que aspectos técnicos sejam incluídos na avaliação geral do projeto e identificação de melhorias.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Métricas técnicas específicas disponíveis.<br>- Integração com ferramentas de qualidade de código.<br>- Benchmarks de referência.<br>- Trending de melhoria/degradação.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF06-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us07-fup">[US07-FUP] - Preencher bloco de nível tecnológico</h1>
+<h3 id="tabela-7-historia-de-usuario-preencher-bloco-de-nivel-tecnologico">Tabela 7: História de Usuário – Preencher bloco de nível tecnológico</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US07-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Preencher bloco de nível tecnológico</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo avaliar o nível tecnológico do projeto para que a maturidade técnica seja considerada e estratégias de evolução sejam planejadas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Avaliação de stack tecnológico.<br>- Indicadores de modernidade das tecnologias.<br>- Comparação com padrões da organização.<br>- Recomendações automáticas de evolução.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF07-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us08-fup">[US08-FUP] - Usar salvamento automático</h1>
+<h3 id="tabela-8-historia-de-usuario-usar-salvamento-automatico">Tabela 8: História de Usuário – Usar salvamento automático</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US08-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Usar salvamento automático</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo que minhas informações sejam salvas automaticamente para que eu não perca dados em caso de problemas técnicos ou fechamento acidental da página.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Salvamento automático a cada 30 segundos.<br>- Indicador visual de status de salvamento.<br>- Recuperação automática em caso de reconexão.<br>- Mensagem de confirmação de dados salvos.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF08-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us09-fup">[US09-FUP] - Usar lógica condicional no formulário</h1>
+<h3 id="tabela-9-historia-de-usuario-usar-logica-condicional-no-formulario">Tabela 9: História de Usuário – Usar lógica condicional no formulário</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US09-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Usar lógica condicional no formulário</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo que o formulário se adapte às minhas respostas anteriores para ter uma experiência mais personalizada e eficiente durante o preenchimento.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Campos condicionais devem aparecer/desaparecer conforme contexto.<br>- Validações específicas por contexto.<br>- Fluxo otimizado baseado no tipo de projeto.<br>- Configuração flexível de regras.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF09-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us10-fup">[US10-FUP] - Gerar relatório em PDF</h1>
+<h3 id="tabela-10-historia-de-usuario-gerar-relatorio-em-pdf">Tabela 10: História de Usuário – Gerar relatório em PDF</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US10-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Gerar relatório em PDF</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como líder técnico, desejo gerar um relatório em PDF do FUP para compartilhar ou arquivar as informações de forma profissional e padronizada.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Relatório deve ser formatado profissionalmente.<br>- Deve incluir todas as seções preenchidas.<br>- Geração em menos de 10 segundos.<br>- Download automático ou visualização online.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF10-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us11-fup">[US11-FUP] - Visualizar relatório organizado por blocos</h1>
+<h3 id="tabela-11-historia-de-usuario-visualizar-relatorio-organizado-por-blocos">Tabela 11: História de Usuário – Visualizar relatório organizado por blocos</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US11-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Visualizar relatório organizado por blocos</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como líder técnico, desejo que o relatório PDF seja organizado por blocos temáticos para que a leitura seja estruturada e fácil de navegar.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Seções devem ser claramente divididas por bloco.<br>- Índice navegável disponível.<br>- Gráficos e tabelas bem formatados.<br>- Cabeçalho com informações do projeto.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF11-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us12-fup">[US12-FUP] - Acessar histórico de relatórios</h1>
+<h3 id="tabela-12-historia-de-usuario-acessar-historico-de-relatorios">Tabela 12: História de Usuário – Acessar histórico de relatórios</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US12-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Acessar histórico de relatórios</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como líder técnico, desejo acessar o histórico de relatórios de um projeto para acompanhar a evolução ao longo do tempo e fazer análises comparativas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Lista cronológica de relatórios disponível.<br>- Visualização de versões anteriores.<br>- Funcionalidade de comparação entre períodos.<br>- Download de versões históricas.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF12-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us13-fup">[US13-FUP] - Visualizar dashboard com faróis</h1>
+<h3 id="tabela-13-historia-de-usuario-visualizar-dashboard-com-farois">Tabela 13: História de Usuário – Visualizar dashboard com faróis</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US13-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Visualizar dashboard com faróis</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo visualizar um dashboard com indicadores em formato de farol para ter uma visão rápida do status geral dos projetos sob minha gestão.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Cards de projeto com cores de farol (verde/amarelo/vermelho).<br>- Layout responsivo e claro.<br>- Atualização em tempo real.<br>- Informações básicas visíveis sem necessidade de clique.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF13-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us14-fup">[US14-FUP] - Usar cálculo automático de farol</h1>
+<h3 id="tabela-14-historia-de-usuario-usar-calculo-automatico-de-farol">Tabela 14: História de Usuário – Usar cálculo automático de farol</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US14-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Usar cálculo automático de farol</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como sistema, preciso calcular automaticamente a cor do farol para que os gestores tenham indicadores consistentes e objetivos baseados em critérios padronizados.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Algoritmo baseado nos blocos preenchidos.<br>- Regras claras para verde/amarelo/vermelho.<br>- Recálculo automático a cada atualização.<br>- Log de mudanças de status disponível.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF14-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us15-fup">[US15-FUP] - Filtrar dashboard por PO</h1>
+<h3 id="tabela-15-historia-de-usuario-filtrar-dashboard-por-po">Tabela 15: História de Usuário – Filtrar dashboard por PO</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US15-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Filtrar dashboard por PO</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo filtrar o dashboard por Product Owner para focar nos projetos de POs específicos e facilitar o acompanhamento personalizado.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Dropdown com lista completa de POs.<br>- Filtro aplicado instantaneamente.<br>- Opção "Todos" para remover filtro.<br>- Contadores de projetos atualizados dinamicamente.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF15-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us16-fup">[US16-FUP] - Filtrar dashboard por projeto</h1>
+<h3 id="tabela-16-historia-de-usuario-filtrar-dashboard-por-projeto">Tabela 16: História de Usuário – Filtrar dashboard por projeto</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US16-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Filtrar dashboard por projeto</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo filtrar o dashboard por projeto específico para acompanhar projetos de interesse particular e fazer análises focadas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Campo de busca por nome do projeto.<br>- Funcionalidade de autocomplete com sugestões.<br>- Busca parcial funcionando adequadamente.<br>- Resultados atualizados dinamicamente.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF16-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us17-fup">[US17-FUP] - Filtrar dashboard por período</h1>
+<h3 id="tabela-17-historia-de-usuario-filtrar-dashboard-por-periodo">Tabela 17: História de Usuário – Filtrar dashboard por período</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US17-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Filtrar dashboard por período</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo filtrar o dashboard por período específico para analisar tendências temporais e fazer comparações históricas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Seletor de data inicial e final disponível.<br>- Presets comuns (último mês, trimestre, etc.).<br>- Visualização clara do período selecionado.<br>- Métricas recalculadas para o período.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF17-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us18-fup">[US18-FUP] - Usar drill-down em faróis</h1>
+<h3 id="tabela-18-historia-de-usuario-usar-drill-down-em-farois">Tabela 18: História de Usuário – Usar drill-down em faróis</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US18-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Usar drill-down em faróis</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo clicar em um farol para ver detalhes específicos para entender os motivos por trás do status e tomar ações corretivas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Modal ou página de detalhes acessível por clique.<br>- Breakdown dos fatores que influenciam o farol.<br>- Ações recomendadas apresentadas.<br>- Links diretos para áreas problemáticas.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF18-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us19-fup">[US19-FUP] - Associar metadados do projeto</h1>
+<h3 id="tabela-19-historia-de-usuario-associar-metadados-do-projeto">Tabela 19: História de Usuário – Associar metadados do projeto</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US19-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Associar metadados do projeto</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como PO, desejo que o sistema associe automaticamente metadados do projeto (PO, data, identificação) para garantir rastreabilidade e organização adequada das informações.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Associação automática de projeto/PO/data.<br>- Metadados visíveis em relatórios.<br>- Identificação única por preenchimento.<br>- Histórico de modificações rastreável.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF19-FUP</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us20-fup">[US20-FUP] - Visualizar evolução de projetos</h1>
+<h3 id="tabela-20-historia-de-usuario-visualizar-evolucao-de-projetos">Tabela 20: História de Usuário – Visualizar evolução de projetos</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US20-FUP</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Visualizar evolução de projetos</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como gestor de programa, desejo visualizar a evolução dos projetos ao longo do tempo para identificar tendências, padrões e oportunidades de melhoria.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Gráficos de linha temporal disponíveis.<br>- Indicadores visuais de melhoria/piora.<br>- Alertas automáticos para mudanças significativas.<br>- Funcionalidade de drill-down por projeto.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF20-FUP</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
