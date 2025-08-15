@@ -108,3 +108,8 @@ nav:
   - NPS:
       - 304: NPS/304.md
       - Newave: NPS/newave.md
+  - Indicadores: 
+      - Tecnologia: 
+        - 15/08 - Discovery: indicadores/discovery/visaoanalitica.md
+        - Elicitação de Requisitos: indicadores/tecnologia/requisitos.md
+        - Histórias de Usuário: indicadores/tecnologia/historiadeusuario.md
