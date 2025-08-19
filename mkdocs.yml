@@ -68,6 +68,10 @@ nav:
               - PRAD: modulos/axs/modelagem/prad.md
               - Plantio: modulos/axs/modelagem/plantio.md
           - Backlog: modulos/axs/backlog_geral.md
+      - Due Dilligence: 
+          - 18/08 - Discovery: modulos/DD/discovery/discovery.md
+          - Elicitação de Requisitos: modulos/DD/elicitacao/elicitacao.md
+          - Histórias de Usuário: modulos/DD/modelagem/historiasdeusuario.md
       - Eletronorte:
           - Discovery:
               - 6/08 - RDO e Mudas: modulos/eletronorte/discovery/eletronorte.md
@@ -101,10 +105,13 @@ nav:
           - Backlog: modulos/newave/backlog_geral.md 
   - Rastreabilidade:
       - 230: rastreabilidade/230.md
+      - 304: rastreabilidade/304.md
       - AXS: rastreabilidade/axs.md
+      - Due Dilligence: rastreabilidade/dd.md
       - Eletronorte: rastreabilidade/eletronorte.md
       - Engeform: rastreabilidade/engeform.md
       - Newave: rastreabilidade/newave.md
+      - FUP: rastreabilidade/fup.md
   - NPS:
       - 304: NPS/304.md
       - Newave: NPS/newave.md
