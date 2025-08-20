@@ -1,8 +1,8 @@
-# Elicitação de Requisitos - Módulo Fauna
+# Elicitação de Requisitos - Módulo 230
 
 ## Introdução
 
-Este documento apresenta a elicitação de requisitos funcionais e não funcionais para o módulo **Fauna**, responsável pela coleta, armazenamento, tratamento e distribuição de dados de fauna (atropelamento, resgate, afugentamento) com base no discovery realizado com os stakeholders.
+Este documento apresenta a elicitação de requisitos funcionais e não funcionais para o módulo **230**, responsável pela coleta, armazenamento, tratamento e distribuição de dados de fauna (atropelamento, resgate, afugentamento) com base no discovery realizado com os stakeholders.
 
 ## Objetivo
 
@@ -24,7 +24,15 @@ Definir requisitos claros para o desenvolvimento de uma solução integrada que 
 | RF03-230 | Armazenar automaticamente dados de fauna (atropelamento, resgate, afugentamento) em banco de dados parametrizado, eliminando uso de planilhas manuais.                |
 | RF04-230 | Permitir funcionamento offline durante a coleta de dados, com sincronização automática dos registros ao reconectar.                                                   |
 | RF05-230 | Registrar e categorizar espécimes de fauna por tipo de evento (resgate, afugentamento, atropelamento), incluindo campos para observações e características do animal. |
-| RF06-230 | Gerar relatórios automáticos de fauna, incluindo fotos favoritas, tabelas e gráficos comparativos com períodos anteriores.                                            |
+| RF06-230 | Separar nome científico e nome popular em campos distintos no formulário de registro de fauna.                                                                        |
+| RF07-230 | Padronizar coordenadas automaticamente no formato UTM durante a coleta de dados.                                                                                      |
+| RF08-230 | Implementar filtros funcionais por supervisor, data e segmento para consulta de registros de fauna.                                                                   |
+| RF09-230 | Permitir edição posterior dos registros para correção de espécies identificadas após análise laboratorial.                                                            |
+| RF10-230 | Criar filtro "indeterminado" para facilitar a revisão de registros com identificação incompleta.                                                                      |
+| RF11-230 | Exportar dados estruturados (Excel/CSV) com colunas pré-formatadas e prontas para análise, eliminando retrabalho manual.                                              |
+| RF12-230 | Gerar mapas interativos dentro de cada programa mostrando pontos de coleta de fauna georreferenciados.                                                                |
+| RF13-230 | Exportar mapas em formatos compatíveis (KML/KMZ, shapefile) para integração com QGIS e Google Earth.                                                                  |
+| RF14-230 | Criar modelos de relatório automáticos a partir da base de dados (implementação futura).                                                                              |
 
 ---
 
@@ -34,7 +42,7 @@ Definir requisitos claros para o desenvolvimento de uma solução integrada que 
 | --------- | ------------------------------------------------------------------------------------------------ |
 | RNF01-230 | Sistema deve suportar operação offline por até 7 dias consecutivos sem conectividade.            |
 | RNF02-230 | Sincronização automática dos dados deve ocorrer em até 10 minutos após reconexão.                |
-| RNF03-230 | Interface deve ser otimizada para uso em aparelhos Android.                      |
+| RNF03-230 | Interface deve ser otimizada para uso em aparelhos Android.                                      |
 | RNF04-230 | Comunicação com APIs e backend deve usar HTTPS e criptografia para garantir segurança dos dados. |
 | RNF05-230 | Tempo de resposta para consultas e geração de relatórios deve ser inferior a 3 segundos.         |
 | RNF06-230 | Aplicação deve ser intuitiva, sem necessidade de treinamento adicional para usuários finais.     |

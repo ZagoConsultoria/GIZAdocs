@@ -1,12 +1,12 @@
-# Histórias de Usuário - Módulo Fauna
+# Histórias de Usuário - Módulo 230
 
 ## Introdução
 
-Com base no discovery realizado para o módulo **Fauna**, estas histórias de usuário descrevem, do ponto de vista dos técnicos de campo e coordenadores, as funcionalidades desejadas para coleta, armazenamento, integração e geração de relatórios de dados de fauna.
+Com base no discovery realizado para o módulo **230**, estas histórias de usuário descrevem, do ponto de vista dos técnicos de campo e coordenadores, as funcionalidades desejadas para coleta, armazenamento, integração e geração de relatórios de dados de fauna.
 
 ## Objetivo
 
-Apresentar as histórias de usuário que guiarão o desenvolvimento incremental do módulo Fauna, assegurando a entrega de valor desde as necessidades mais críticas.
+Apresentar as histórias de usuário que guiarão o desenvolvimento incremental do módulo 230, assegurando a entrega de valor desde as necessidades mais críticas.
 
 ---
 
@@ -94,16 +94,144 @@ Apresentar as histórias de usuário que guiarão o desenvolvimento incremental 
 
 ---
 
-# [US06-230] - Gerar relatórios automáticos de fauna {#us06-230}
+# [US06-230] - Separar nomenclatura científica e popular {#us06-230}
 
-### Tabela 6: História de Usuário – Gerar relatórios automáticos de fauna
+### Tabela 6: História de Usuário – Separar nomenclatura científica e popular
 
-| Item                         | Descrição                                                                                                                                                                                |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| USx(número de identificação) | US06-230                                                                                                                                                                                 |
-| Tema                         | Gerar relatórios automáticos de fauna com fotos, tabelas e gráficos                                                                                                                      |
-| Descrição                    | Eu, como coordenador técnico, desejo gerar relatórios consolidados de fauna com fotos favoritas, tabelas e gráficos comparativos, para facilitar a análise e comunicação dos resultados. |
-| Critérios de Aceitação       | - Relatórios gerados em formato PDF e/ou Excel.<br>- Inclusão de fotos favoritas.<br>- Gráficos comparativos com períodos anteriores.<br>- Template padrão definido pela equipe.         |
-| Prioridade Usuário           | Alta                                                                                                                                                                                     |
-| Status                       | Validada                                                                                                                                                                                 |
-| Rastreabilidade              | RF06-230                                                                                                                                                                                 |
+| Item                         | Descrição                                                                                                                                                        |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US06-230                                                                                                                                                         |
+| Tema                         | Separar nome científico e nome popular em campos distintos                                                                                                       |
+| Descrição                    | Eu, como analista de dados, desejo que o nome científico e nome popular sejam campos separados, para facilitar análises taxonômicas e relatórios especializados. |
+| Critérios de Aceitação       | - Campo específico para nome científico.<br>- Campo específico para nome popular.<br>- Validação de preenchimento adequado.<br>- Busca independente por tipo.    |
+| Prioridade Usuário           | Alta                                                                                                                                                             |
+| Status                       | Validada                                                                                                                                                         |
+| Rastreabilidade              | RF06-230                                                                                                                                                         |
+
+---
+
+# [US07-230] - Padronizar coordenadas em formato UTM {#us07-230}
+
+### Tabela 7: História de Usuário – Padronizar coordenadas em formato UTM
+
+| Item                         | Descrição                                                                                                                                                   |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US07-230                                                                                                                                                    |
+| Tema                         | Padronizar coordenadas automaticamente no formato UTM                                                                                                       |
+| Descrição                    | Eu, como técnico de campo, desejo que as coordenadas sejam automaticamente convertidas para o formato UTM, para manter consistência nos dados geoespaciais. |
+| Critérios de Aceitação       | - Conversão automática para UTM.<br>- Preservação da precisão.<br>- Indicação do fuso UTM utilizado.<br>- Compatibilidade com análises SIG.                 |
+| Prioridade Usuário           | Alta                                                                                                                                                        |
+| Status                       | Validada                                                                                                                                                    |
+| Rastreabilidade              | RF07-230                                                                                                                                                    |
+
+---
+
+# [US08-230] - Implementar filtros funcionais de consulta {#us08-230}
+
+### Tabela 8: História de Usuário – Implementar filtros funcionais de consulta
+
+| Item                         | Descrição                                                                                                                                                        |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US08-230                                                                                                                                                         |
+| Tema                         | Implementar filtros funcionais por supervisor, data e segmento                                                                                                   |
+| Descrição                    | Eu, como coordenador, desejo filtrar registros por supervisor, data e segmento, para acompanhar o trabalho de equipe e analisar dados por período e localização. |
+| Critérios de Aceitação       | - Filtro por supervisor operacional.<br>- Filtro por período/data funcional.<br>- Filtro por segmento ativo.<br>- Combinação de filtros possível.                |
+| Prioridade Usuário           | Alta                                                                                                                                                             |
+| Status                       | Validada                                                                                                                                                         |
+| Rastreabilidade              | RF08-230                                                                                                                                                         |
+
+---
+
+# [US09-230] - Editar registros após análise {#us09-230}
+
+### Tabela 9: História de Usuário – Editar registros após análise
+
+| Item                         | Descrição                                                                                                                                                                |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USx(número de identificação) | US09-230                                                                                                                                                                 |
+| Tema                         | Permitir edição posterior dos registros para correção de espécies                                                                                                        |
+| Descrição                    | Eu, como analista especializado, desejo editar registros existentes para corrigir identificação de espécies após análise laboratorial, mantendo histórico de alterações. |
+| Critérios de Aceitação       | - Edição de campos de identificação.<br>- Histórico de alterações mantido.<br>- Controle de permissões de edição.<br>- Log de quem fez alterações.                       |
+| Prioridade Usuário           | Alta                                                                                                                                                                     |
+| Status                       | Validada                                                                                                                                                                 |
+| Rastreabilidade              | RF09-230                                                                                                                                                                 |
+
+---
+
+# [US10-230] - Criar filtro para registros indeterminados {#us10-230}
+
+### Tabela 10: História de Usuário – Criar filtro para registros indeterminados
+
+| Item                         | Descrição                                                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US10-230                                                                                                                                                            |
+| Tema                         | Criar filtro "indeterminado" para facilitar revisão de registros                                                                                                    |
+| Descrição                    | Eu, como analista de dados, desejo filtrar registros marcados como "indeterminados", para priorizar a revisão de espécimes com identificação ainda incompleta.      |
+| Critérios de Aceitação       | - Filtro específico para status "indeterminado".<br>- Marcação de registros como indeterminados.<br>- Contagem de registros pendentes.<br>- Priorização de revisão. |
+| Prioridade Usuário           | Média                                                                                                                                                               |
+| Status                       | Validada                                                                                                                                                            |
+| Rastreabilidade              | RF10-230                                                                                                                                                            |
+
+---
+
+# [US11-230] - Exportar dados estruturados {#us11-230}
+
+### Tabela 11: História de Usuário – Exportar dados estruturados
+
+| Item                         | Descrição                                                                                                                                                               |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US11-230                                                                                                                                                                |
+| Tema                         | Exportar dados estruturados (Excel/CSV) com colunas pré-formatadas                                                                                                      |
+| Descrição                    | Eu, como analista de dados, desejo exportar dados em Excel/CSV com colunas já separadas e formatadas, para eliminar retrabalho manual e acelerar análises estatísticas. |
+| Critérios de Aceitação       | - Exportação em Excel e CSV.<br>- Colunas pré-formatadas e separadas.<br>- Dados prontos para análise.<br>- Eliminação de processamento manual pós-exportação.          |
+| Prioridade Usuário           | Alta                                                                                                                                                                    |
+| Status                       | Validada                                                                                                                                                                |
+| Rastreabilidade              | RF11-230                                                                                                                                                                |
+
+---
+
+# [US12-230] - Gerar mapas interativos {#us12-230}
+
+### Tabela 12: História de Usuário – Gerar mapas interativos
+
+| Item                         | Descrição                                                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US12-230                                                                                                                                                            |
+| Tema                         | Gerar mapas interativos mostrando pontos de coleta georreferenciados                                                                                                |
+| Descrição                    | Eu, como coordenador, desejo visualizar mapas interativos com pontos de coleta de fauna, para análise espacial e planejamento de ações de conservação por programa. |
+| Critérios de Aceitação       | - Mapas interativos dentro de cada programa.<br>- Pontos georreferenciados visíveis.<br>- Navegação e zoom funcionais.<br>- Filtragem por tipo de evento nos mapas. |
+| Prioridade Usuário           | Média                                                                                                                                                               |
+| Status                       | Validada                                                                                                                                                            |
+| Rastreabilidade              | RF12-230                                                                                                                                                            |
+
+---
+
+# [US13-230] - Exportar mapas em formatos compatíveis {#us13-230}
+
+### Tabela 13: História de Usuário – Exportar mapas em formatos compatíveis
+
+| Item                         | Descrição                                                                                                                                                                   |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US13-230                                                                                                                                                                    |
+| Tema                         | Exportar mapas em formatos compatíveis (KML/KMZ, shapefile)                                                                                                                 |
+| Descrição                    | Eu, como analista GIS, desejo exportar mapas em formatos KML/KMZ e shapefile, para integração com QGIS e Google Earth em análises espaciais mais avançadas.                 |
+| Critérios de Aceitação       | - Exportação em formato KML/KMZ.<br>- Exportação em formato shapefile.<br>- Compatibilidade com QGIS.<br>- Compatibilidade com Google Earth.<br>- Preservação de atributos. |
+| Prioridade Usuário           | Média                                                                                                                                                                       |
+| Status                       | Validada                                                                                                                                                                    |
+| Rastreabilidade              | RF13-230                                                                                                                                                                    |
+
+---
+
+# [US14-230] - Criar relatórios automáticos {#us14-230}
+
+### Tabela 14: História de Usuário – Criar relatórios automáticos
+
+| Item                         | Descrição                                                                                                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US14-230                                                                                                                                                              |
+| Tema                         | Criar modelos de relatório automáticos a partir da base de dados                                                                                                      |
+| Descrição                    | Eu, como coordenador, desejo gerar relatórios automáticos padronizados a partir da base de dados, para agilizar a produção de documentos de acompanhamento e análise. |
+| Critérios de Aceitação       | - Modelos de relatório pré-definidos.<br>- Geração automática a partir dos dados.<br>- Formatação profissional.<br>- Configuração de períodos para relatórios.        |
+| Prioridade Usuário           | Baixa                                                                                                                                                                 |
+| Status                       | Validada                                                                                                                                                              |
+| Rastreabilidade              | RF14-230                                                                                                                                                              |

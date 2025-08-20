@@ -51,6 +51,7 @@ nav:
       - 230:
           - Discovery:
               - 25/06 - Fauna: modulos/230/discovery/fauna.md
+              - 20/08 - Melhorias: modulos/230/discovery/melhorias.md
           - Elicitação de Requisitos: modulos/230/elicitacao/fauna.md
           - Priorização de Requisitos: modulos/230/priorizacao/fauna.md
           - Histórias de Usuário: modulos/230/modelagem/fauna.md
