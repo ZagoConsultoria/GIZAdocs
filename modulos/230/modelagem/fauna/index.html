@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#historias-de-usuario-modulo-fauna" class="md-skip">
+        <a href="#historias-de-usuario-modulo-230" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -699,6 +699,29 @@
   
   <span class="md-ellipsis">
     25/06 - Fauna
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/melhorias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    20/08 - Melhorias
     
   </span>
   
@@ -2951,11 +2974,11 @@
   
 
 
-<h1 id="historias-de-usuario-modulo-fauna">Histórias de Usuário - Módulo Fauna</h1>
+<h1 id="historias-de-usuario-modulo-230">Histórias de Usuário - Módulo 230</h1>
 <h2 id="introducao">Introdução</h2>
-<p>Com base no discovery realizado para o módulo <strong>Fauna</strong>, estas histórias de usuário descrevem, do ponto de vista dos técnicos de campo e coordenadores, as funcionalidades desejadas para coleta, armazenamento, integração e geração de relatórios de dados de fauna.</p>
+<p>Com base no discovery realizado para o módulo <strong>230</strong>, estas histórias de usuário descrevem, do ponto de vista dos técnicos de campo e coordenadores, as funcionalidades desejadas para coleta, armazenamento, integração e geração de relatórios de dados de fauna.</p>
 <h2 id="objetivo">Objetivo</h2>
-<p>Apresentar as histórias de usuário que guiarão o desenvolvimento incremental do módulo Fauna, assegurando a entrega de valor desde as necessidades mais críticas.</p>
+<p>Apresentar as histórias de usuário que guiarão o desenvolvimento incremental do módulo 230, assegurando a entrega de valor desde as necessidades mais críticas.</p>
 <hr />
 <h2 id="historias-de-usuario">Histórias de Usuário</h2>
 <hr />
@@ -3164,8 +3187,8 @@
 </tbody>
 </table>
 <hr />
-<h1 id="us06-230">[US06-230] - Gerar relatórios automáticos de fauna</h1>
-<h3 id="tabela-6-historia-de-usuario-gerar-relatorios-automaticos-de-fauna">Tabela 6: História de Usuário – Gerar relatórios automáticos de fauna</h3>
+<h1 id="us06-230">[US06-230] - Separar nomenclatura científica e popular</h1>
+<h3 id="tabela-6-historia-de-usuario-separar-nomenclatura-cientifica-e-popular">Tabela 6: História de Usuário – Separar nomenclatura científica e popular</h3>
 <table>
 <thead>
 <tr>
@@ -3180,15 +3203,15 @@
 </tr>
 <tr>
 <td>Tema</td>
-<td>Gerar relatórios automáticos de fauna com fotos, tabelas e gráficos</td>
+<td>Separar nome científico e nome popular em campos distintos</td>
 </tr>
 <tr>
 <td>Descrição</td>
-<td>Eu, como coordenador técnico, desejo gerar relatórios consolidados de fauna com fotos favoritas, tabelas e gráficos comparativos, para facilitar a análise e comunicação dos resultados.</td>
+<td>Eu, como analista de dados, desejo que o nome científico e nome popular sejam campos separados, para facilitar análises taxonômicas e relatórios especializados.</td>
 </tr>
 <tr>
 <td>Critérios de Aceitação</td>
-<td>- Relatórios gerados em formato PDF e/ou Excel.<br>- Inclusão de fotos favoritas.<br>- Gráficos comparativos com períodos anteriores.<br>- Template padrão definido pela equipe.</td>
+<td>- Campo específico para nome científico.<br>- Campo específico para nome popular.<br>- Validação de preenchimento adequado.<br>- Busca independente por tipo.</td>
 </tr>
 <tr>
 <td>Prioridade Usuário</td>
@@ -3201,6 +3224,334 @@
 <tr>
 <td>Rastreabilidade</td>
 <td>RF06-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us07-230">[US07-230] - Padronizar coordenadas em formato UTM</h1>
+<h3 id="tabela-7-historia-de-usuario-padronizar-coordenadas-em-formato-utm">Tabela 7: História de Usuário – Padronizar coordenadas em formato UTM</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US07-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Padronizar coordenadas automaticamente no formato UTM</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como técnico de campo, desejo que as coordenadas sejam automaticamente convertidas para o formato UTM, para manter consistência nos dados geoespaciais.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Conversão automática para UTM.<br>- Preservação da precisão.<br>- Indicação do fuso UTM utilizado.<br>- Compatibilidade com análises SIG.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF07-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us08-230">[US08-230] - Implementar filtros funcionais de consulta</h1>
+<h3 id="tabela-8-historia-de-usuario-implementar-filtros-funcionais-de-consulta">Tabela 8: História de Usuário – Implementar filtros funcionais de consulta</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US08-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Implementar filtros funcionais por supervisor, data e segmento</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como coordenador, desejo filtrar registros por supervisor, data e segmento, para acompanhar o trabalho de equipe e analisar dados por período e localização.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Filtro por supervisor operacional.<br>- Filtro por período/data funcional.<br>- Filtro por segmento ativo.<br>- Combinação de filtros possível.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF08-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us09-230">[US09-230] - Editar registros após análise</h1>
+<h3 id="tabela-9-historia-de-usuario-editar-registros-apos-analise">Tabela 9: História de Usuário – Editar registros após análise</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US09-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Permitir edição posterior dos registros para correção de espécies</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como analista especializado, desejo editar registros existentes para corrigir identificação de espécies após análise laboratorial, mantendo histórico de alterações.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Edição de campos de identificação.<br>- Histórico de alterações mantido.<br>- Controle de permissões de edição.<br>- Log de quem fez alterações.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF09-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us10-230">[US10-230] - Criar filtro para registros indeterminados</h1>
+<h3 id="tabela-10-historia-de-usuario-criar-filtro-para-registros-indeterminados">Tabela 10: História de Usuário – Criar filtro para registros indeterminados</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US10-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Criar filtro "indeterminado" para facilitar revisão de registros</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como analista de dados, desejo filtrar registros marcados como "indeterminados", para priorizar a revisão de espécimes com identificação ainda incompleta.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Filtro específico para status "indeterminado".<br>- Marcação de registros como indeterminados.<br>- Contagem de registros pendentes.<br>- Priorização de revisão.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF10-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us11-230">[US11-230] - Exportar dados estruturados</h1>
+<h3 id="tabela-11-historia-de-usuario-exportar-dados-estruturados">Tabela 11: História de Usuário – Exportar dados estruturados</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US11-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Exportar dados estruturados (Excel/CSV) com colunas pré-formatadas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como analista de dados, desejo exportar dados em Excel/CSV com colunas já separadas e formatadas, para eliminar retrabalho manual e acelerar análises estatísticas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Exportação em Excel e CSV.<br>- Colunas pré-formatadas e separadas.<br>- Dados prontos para análise.<br>- Eliminação de processamento manual pós-exportação.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF11-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us12-230">[US12-230] - Gerar mapas interativos</h1>
+<h3 id="tabela-12-historia-de-usuario-gerar-mapas-interativos">Tabela 12: História de Usuário – Gerar mapas interativos</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US12-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Gerar mapas interativos mostrando pontos de coleta georreferenciados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como coordenador, desejo visualizar mapas interativos com pontos de coleta de fauna, para análise espacial e planejamento de ações de conservação por programa.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Mapas interativos dentro de cada programa.<br>- Pontos georreferenciados visíveis.<br>- Navegação e zoom funcionais.<br>- Filtragem por tipo de evento nos mapas.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF12-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us13-230">[US13-230] - Exportar mapas em formatos compatíveis</h1>
+<h3 id="tabela-13-historia-de-usuario-exportar-mapas-em-formatos-compativeis">Tabela 13: História de Usuário – Exportar mapas em formatos compatíveis</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US13-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Exportar mapas em formatos compatíveis (KML/KMZ, shapefile)</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como analista GIS, desejo exportar mapas em formatos KML/KMZ e shapefile, para integração com QGIS e Google Earth em análises espaciais mais avançadas.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Exportação em formato KML/KMZ.<br>- Exportação em formato shapefile.<br>- Compatibilidade com QGIS.<br>- Compatibilidade com Google Earth.<br>- Preservação de atributos.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Média</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF13-230</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="us14-230">[US14-230] - Criar relatórios automáticos</h1>
+<h3 id="tabela-14-historia-de-usuario-criar-relatorios-automaticos">Tabela 14: História de Usuário – Criar relatórios automáticos</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USx(número de identificação)</td>
+<td>US14-230</td>
+</tr>
+<tr>
+<td>Tema</td>
+<td>Criar modelos de relatório automáticos a partir da base de dados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Eu, como coordenador, desejo gerar relatórios automáticos padronizados a partir da base de dados, para agilizar a produção de documentos de acompanhamento e análise.</td>
+</tr>
+<tr>
+<td>Critérios de Aceitação</td>
+<td>- Modelos de relatório pré-definidos.<br>- Geração automática a partir dos dados.<br>- Formatação profissional.<br>- Configuração de períodos para relatórios.</td>
+</tr>
+<tr>
+<td>Prioridade Usuário</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Validada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td>RF14-230</td>
 </tr>
 </tbody>
 </table>

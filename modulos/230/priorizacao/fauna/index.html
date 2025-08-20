@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#priorizacao-de-requisitos-modulo-fauna" class="md-skip">
+        <a href="#priorizacao-de-requisitos-modulo-230" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -709,6 +709,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/melhorias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    20/08 - Melhorias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -837,6 +860,24 @@
   <a href="#prioridade-2-alta" class="md-nav__link">
     <span class="md-ellipsis">
       Prioridade 2 - Alta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prioridade-3-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prioridade 3 - Média
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prioridade-4-baixa-futuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prioridade 4 - Baixa (Futuro)
     </span>
   </a>
   
@@ -2975,6 +3016,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#prioridade-3-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prioridade 3 - Média
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prioridade-4-baixa-futuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prioridade 4 - Baixa (Futuro)
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2999,11 +3058,11 @@
   
 
 
-<h1 id="priorizacao-de-requisitos-modulo-fauna">Priorização de Requisitos - Módulo Fauna</h1>
+<h1 id="priorizacao-de-requisitos-modulo-230">Priorização de Requisitos - Módulo 230</h1>
 <h2 id="introducao">Introdução</h2>
-<p>Este documento apresenta a priorização dos requisitos funcionais e não funcionais do módulo <strong>Fauna</strong>, organizados por níveis de prioridade com base na criticidade para o funcionamento do sistema e valor de negócio. A priorização considera a coleta de dados em campo como funcionalidade core mais crítica, seguida por integração, armazenamento, relatórios e requisitos de qualidade.</p>
+<p>Este documento apresenta a priorização dos requisitos funcionais e não funcionais do módulo <strong>230</strong>, organizados por níveis de prioridade com base na criticidade para o funcionamento do sistema e valor de negócio. A priorização considera a coleta de dados em campo como funcionalidade core mais crítica, seguida por integração, armazenamento, relatórios e requisitos de qualidade.</p>
 <h2 id="objetivo">Objetivo</h2>
-<p>Definir a ordem de implementação dos requisitos do sistema Fauna, garantindo entregas incrementais de valor e substituindo processos manuais atuais.</p>
+<p>Definir a ordem de implementação dos requisitos do sistema 230, garantindo entregas incrementais de valor e substituindo processos manuais atuais.</p>
 <hr />
 <h2 id="tabela-priorizacao">Priorização dos Requisitos</h2>
 <h3 id="prioridade-1-critica-mvp">Prioridade 1 - Crítica (MVP)</h3>
@@ -3046,12 +3105,6 @@
 <td>Registrar e categorizar espécimes por tipo de evento com observações</td>
 <td>Funcional</td>
 <td>Coleta de Dados</td>
-</tr>
-<tr>
-<td><strong>RF06-230</strong></td>
-<td>Gerar relatórios automáticos de fauna com fotos, tabelas e gráficos</td>
-<td>Funcional</td>
-<td>Relatórios</td>
 </tr>
 <tr>
 <td><strong>RNF01-230</strong></td>
@@ -3097,6 +3150,36 @@
 </thead>
 <tbody>
 <tr>
+<td><strong>RF06-230</strong></td>
+<td>Separar nome científico e nome popular em campos distintos</td>
+<td>Funcional</td>
+<td>Estrutura Dados</td>
+</tr>
+<tr>
+<td><strong>RF07-230</strong></td>
+<td>Padronizar coordenadas automaticamente no formato UTM</td>
+<td>Funcional</td>
+<td>Georreferência</td>
+</tr>
+<tr>
+<td><strong>RF08-230</strong></td>
+<td>Implementar filtros funcionais por supervisor, data e segmento</td>
+<td>Funcional</td>
+<td>Consulta</td>
+</tr>
+<tr>
+<td><strong>RF09-230</strong></td>
+<td>Permitir edição posterior dos registros para correção de espécies</td>
+<td>Funcional</td>
+<td>Edição</td>
+</tr>
+<tr>
+<td><strong>RF11-230</strong></td>
+<td>Exportar dados estruturados (Excel/CSV) com colunas pré-formatadas</td>
+<td>Funcional</td>
+<td>Exportação</td>
+</tr>
+<tr>
 <td><strong>RNF06-230</strong></td>
 <td>Aplicação deve ser intuitiva, sem necessidade de treinamento adicional</td>
 <td>Não Funcional</td>
@@ -3107,6 +3190,56 @@
 <td>Sistema deve suportar até 500 fotos por registro sem degradação de performance</td>
 <td>Não Funcional</td>
 <td>Performance</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prioridade-3-media">Prioridade 3 - Média</h3>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Tipo</strong></th>
+<th><strong>Categoria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RF10-230</strong></td>
+<td>Criar filtro "indeterminado" para facilitar revisão de registros</td>
+<td>Funcional</td>
+<td>Consulta</td>
+</tr>
+<tr>
+<td><strong>RF12-230</strong></td>
+<td>Gerar mapas interativos mostrando pontos de coleta georreferenciados</td>
+<td>Funcional</td>
+<td>Visualização</td>
+</tr>
+<tr>
+<td><strong>RF13-230</strong></td>
+<td>Exportar mapas em formatos compatíveis (KML/KMZ, shapefile)</td>
+<td>Funcional</td>
+<td>Exportação</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prioridade-4-baixa-futuro">Prioridade 4 - Baixa (Futuro)</h3>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Tipo</strong></th>
+<th><strong>Categoria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RF14-230</strong></td>
+<td>Criar modelos de relatório automáticos a partir da base de dados</td>
+<td>Funcional</td>
+<td>Relatórios</td>
 </tr>
 </tbody>
 </table>
