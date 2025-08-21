@@ -14,19 +14,19 @@ Apresentar as histórias de usuário que guiarão o desenvolvimento incremental 
 
 ---
 
-# [US01-230] - Coletar dados de fauna atropelada via ZS {#us01-230}
+# [US01-230] - Coletar dados de fauna via ZS {#us01-230}
 
-### Tabela 1: História de Usuário – Coletar dados de fauna atropelada via ZS
+### Tabela 1: História de Usuário – Coletar dados de fauna via ZS
 
-| Item                         | Descrição                                                                                                                                                                  |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| USx(número de identificação) | US01-230                                                                                                                                                                   |
-| Tema                         | Coletar dados de fauna atropelada via ZS com GPS e fotos                                                                                                                   |
-| Descrição                    | Eu, como técnico de campo, desejo registrar dados de fauna atropelada diretamente no ZS, com captura automática de coordenadas e fotos, para substituir processos manuais. |
-| Critérios de Aceitação       | - Formulário digital para registro de atropelamentos.<br>- Captura automática de data, hora e GPS.<br>- Upload automático de fotos.<br>- Funcionamento offline.            |
-| Prioridade Usuário           | Alta                                                                                                                                                                       |
-| Status                       | Validada                                                                                                                                                                   |
-| Rastreabilidade              | RF01-230                                                                                                                                                                   |
+| Item                         | Descrição                                                                                                                                                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US01-230                                                                                                                                                                                           |
+| Tema                         | Coletar dados de fauna afungentada, atropelada e passagem via ZS com GPS e fotos                                                                                                                   |
+| Descrição                    | Eu, como técnico de campo, desejo registrar dados de fauna afungentada, atropelada e passagem diretamente no ZS, com captura automática de coordenadas e fotos, para substituir processos manuais. |
+| Critérios de Aceitação       | - Formulário digital para registro de atropelamentos.<br>- Captura automática de data, hora e GPS.<br>- Upload automático de fotos.<br>- Funcionamento offline.                                    |
+| Prioridade Usuário           | Alta                                                                                                                                                                                               |
+| Status                       | Validada                                                                                                                                                                                           |
+| Rastreabilidade              | RF01-230                                                                                                                                                                                           |
 
 ---
 
@@ -235,3 +235,19 @@ Apresentar as histórias de usuário que guiarão o desenvolvimento incremental 
 | Prioridade Usuário           | Baixa                                                                                                                                                                 |
 | Status                       | Validada                                                                                                                                                              |
 | Rastreabilidade              | RF14-230                                                                                                                                                              |
+
+---
+
+# [US15-230] - Capturar timestamp no momento do registro {#us15-230}
+
+### Tabela 15: História de Usuário – Capturar timestamp no momento do registro
+
+| Item                         | Descrição                                                                                                                                                                                                                         |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US15-230                                                                                                                                                                                                                          |
+| Tema                         | Capturar data e hora no momento exato do registro                                                                                                                                                                                 |
+| Descrição                    | Eu, como técnico de campo, desejo que a data e hora sejam capturadas no momento exato da coleta de dados, independentemente de quando ocorre a sincronização, para garantir precisão temporal dos registros.                      |
+| Critérios de Aceitação       | - Data e hora capturadas no momento do registro, não na sincronização.<br>- Timestamp local preservado durante operação offline.<br>- Sincronização mantém horário original de coleta.<br>- Fuso horário registrado corretamente. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                                                              |
+| Status                       | Validada                                                                                                                                                                                                                          |
+| Rastreabilidade              | RF15-230                                                                                                                                                                                                                          |

@@ -33,6 +33,7 @@ Definir requisitos claros para o desenvolvimento de uma solução integrada que 
 | RF12-230 | Gerar mapas interativos dentro de cada programa mostrando pontos de coleta de fauna georreferenciados.                                                                |
 | RF13-230 | Exportar mapas em formatos compatíveis (KML/KMZ, shapefile) para integração com QGIS e Google Earth.                                                                  |
 | RF14-230 | Criar modelos de relatório automáticos a partir da base de dados (implementação futura).                                                                              |
+| RF15-230 | Capturar data e hora do registro no momento exato da coleta de dados, independentemente do momento da sincronização com o servidor.                                   |
 
 ---
 
