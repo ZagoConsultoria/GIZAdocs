@@ -25,24 +25,25 @@ O Due Diligence Ambiental visa:
 
 ## Requisitos Funcionais
 
-| **ID**  | **Descrição**                                                           |
-| ------- | ----------------------------------------------------------------------- |
-| RF01-DD | Permitir cadastro centralizado de empreendimentos com dados básicos     |
-| RF02-DD | Registrar informações do proprietário e responsável pelo acompanhamento |
-| RF03-DD | Capturar endereço e localização geográfica com georreferenciamento      |
-| RF04-DD | Gerenciar upload de documentos (licenças, laudos, pareceres, fotos)     |
-| RF05-DD | Implementar versionamento automático de documentos carregados           |
-| RF06-DD | Permitir categorização de documentos por tipo e finalidade              |
-| RF07-DD | Registrar condicionantes legais e status de atendimento                 |
-| RF08-DD | Gerar relatórios de checklist automáticos consolidados para clientes    |
-| RF09-DD | Exportar relatórios automaticamente em formato PDF                      |
-| RF10-DD | Exibir tabela filtrável com todos os empreendimentos                    |
-| RF11-DD | Apresentar cards organizados por status para visão rápida               |
-| RF12-DD | Permitir funcionamento offline em atividades de campo                   |
-| RF13-DD | Sincronizar dados automaticamente quando conectado                      |
-| RF14-DD | Implementar busca avançada por múltiplos critérios                      |
-| RF15-DD | Permitir filtros                                                        |
-| RF16-DD | Manter log completo de alterações com usuário e timestamp               |
+| **ID**  | **Descrição**                                                                                                                          |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| RF01-DD | Permitir cadastro centralizado de empreendimentos com dados básicos                                                                    |
+| RF02-DD | Registrar informações do proprietário e responsável pelo acompanhamento                                                                |
+| RF03-DD | Capturar endereço e localização geográfica com georreferenciamento                                                                     |
+| RF04-DD | Gerenciar upload de documentos (licenças, laudos, pareceres, fotos)                                                                    |
+| RF05-DD | Implementar versionamento automático de documentos carregados                                                                          |
+| RF06-DD | Permitir categorização de documentos por tipo e finalidade                                                                             |
+| RF07-DD | Registrar condicionantes legais e status de atendimento                                                                                |
+| RF08-DD | Gerar relatórios de checklist automáticos consolidados para clientes                                                                   |
+| RF09-DD | Exportar relatórios automaticamente em formato PDF                                                                                     |
+| RF10-DD | Exibir tabela filtrável com todos os empreendimentos                                                                                   |
+| RF11-DD | Apresentar cards organizados por status para visão rápida                                                                              |
+| RF12-DD | Permitir funcionamento offline em atividades de campo                                                                                  |
+| RF13-DD | Sincronizar dados automaticamente quando conectado                                                                                     |
+| RF14-DD | Implementar busca avançada por múltiplos critérios                                                                                     |
+| RF15-DD | Permitir filtros                                                                                                                       |
+| RF16-DD | Manter log completo de alterações com usuário e timestamp                                                                              |
+| RF17-DD | Integrar agente de IA para análise automática de documentos, resumo e identificação de condicionantes ambientais e tópicos importantes |
 
 ---
 

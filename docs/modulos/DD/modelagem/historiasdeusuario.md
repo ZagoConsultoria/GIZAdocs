@@ -269,3 +269,19 @@ O objetivo deste documento é apresentar as histórias de usuário que descrevem
 | Prioridade Usuário           | Média                                                                                                                                                                |
 | Status                       | Validada                                                                                                                                                             |
 | Rastreabilidade              | RF16-DD                                                                                                                                                              |
+
+---
+
+# [US17-DD] - Analisar documentos com IA {#us17-dd}
+
+### Tabela 17: História de Usuário – Analisar documentos com IA
+
+| Item                         | Descrição                                                                                                                                                                                                                                                                      |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USx(número de identificação) | US17-DD                                                                                                                                                                                                                                                                        |
+| Tema                         | Analisar documentos com agente de IA                                                                                                                                                                                                                                           |
+| Descrição                    | Eu, como analista ambiental, desejo que um agente de IA analise automaticamente os documentos carregados para obter resumos, identificar condicionantes ambientais e destacar tópicos importantes.                                                                             |
+| Critérios de Aceitação       | - IA deve processar documentos PDF, DOC e imagens automaticamente.<br>- Gerar resumo executivo dos documentos.<br>- Identificar e extrair condicionantes ambientais.<br>- Destacar tópicos e informações críticas.<br>- Apresentar análise em formato estruturado e navegável. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                                                                                                           |
+| Status                       | Validada                                                                                                                                                                                                                                                                       |
+| Rastreabilidade              | RF17-DD                                                                                                                                                                                                                                                                        |
