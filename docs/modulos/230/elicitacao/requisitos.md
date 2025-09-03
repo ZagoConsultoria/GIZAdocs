@@ -34,6 +34,17 @@ Definir requisitos claros para o desenvolvimento de uma solução integrada que 
 | RF13-230 | Exportar mapas em formatos compatíveis (KML/KMZ, shapefile) para integração com QGIS e Google Earth.                                                                  |
 | RF14-230 | Criar modelos de relatório automáticos a partir da base de dados (implementação futura).                                                                              |
 | RF15-230 | Capturar data e hora do registro no momento exato da coleta de dados, independentemente do momento da sincronização com o servidor.                                   |
+| RF16-230 | Permitir coleta de dados de prospecção arqueológica via formulário digital, incluindo informações do responsável técnico, data, local e coordenadas.                  |
+| RF17-230 | Registrar características da área investigada incluindo relevo, vegetação, compartimentação, superfície, antropização e agente/atividade.                             |
+| RF18-230 | Capturar descrição detalhada do poço-teste incluindo profundidade, textura, compactação, coloração e fator intransponível.                                            |
+| RF19-230 | Permitir registro de ocorrências arqueológicas com status (Sim/Não) e descrição detalhada dos achados.                                                                |
+| RF20-230 | Integrar upload automático de fotos georreferenciadas para documentação do sítio arqueológico e achados.                                                              |
+| RF21-230 | Sincronizar automaticamente dados coletados com sistema GIZA para armazenamento centralizado.                                                                         |
+| RF22-230 | Gerar ficha de campo em PDF automaticamente para anexar em relatórios arqueológicos.                                                                                  |
+| RF23-230 | Exibir mapa interativo com pontos de prospecção arqueológica georreferenciados para análise espacial.                                                                 |
+| RF24-230 | Extrair e exportar coordenadas UTM dos pontos de coleta para uso em relatórios técnicos.                                                                              |
+| RF25-230 | Exportar pontos de coleta em formato KML/KMZ para integração com Google Earth e softwares GIS.                                                                        |
+| RF26-230 | Manter lista simples de registros de prospecção arqueológica para visualização e acompanhamento.                                                                      |
 
 ---
 
@@ -48,3 +59,6 @@ Definir requisitos claros para o desenvolvimento de uma solução integrada que 
 | RNF05-230 | Tempo de resposta para consultas e geração de relatórios deve ser inferior a 3 segundos.         |
 | RNF06-230 | Aplicação deve ser intuitiva, sem necessidade de treinamento adicional para usuários finais.     |
 | RNF07-230 | Sistema deve suportar até 500 fotos por registro sem degradação significativa de performance.    |
+| RNF08-230 | Sistema deve suportar dispositivos iOS além de Android para coleta de dados arqueológicos.       |
+| RNF09-230 | Interface web deve ser responsiva e funcional em navegadores desktop para visualização de dados. |
+| RNF10-230 | Geração de PDF de fichas arqueológicas deve ocorrer em menos de 5 segundos por documento.        |

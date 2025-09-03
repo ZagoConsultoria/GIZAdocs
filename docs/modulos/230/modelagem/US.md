@@ -251,3 +251,179 @@ Apresentar as histórias de usuário que guiarão o desenvolvimento incremental 
 | Prioridade Usuário           | Alta                                                                                                                                                                                                                              |
 | Status                       | Validada                                                                                                                                                                                                                          |
 | Rastreabilidade              | RF15-230                                                                                                                                                                                                                          |
+
+---
+
+# [US16-230] - Coletar dados de prospecção arqueológica {#us16-230}
+
+### Tabela 16: História de Usuário – Coletar dados de prospecção arqueológica
+
+| Item                         | Descrição                                                                                                                                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USx(número de identificação) | US16-230                                                                                                                                                                                   |
+| Tema                         | Coletar dados de prospecção arqueológica via formulário digital                                                                                                                            |
+| Descrição                    | Eu, como arqueólogo de campo, desejo registrar dados de prospecção arqueológica digitalmente incluindo responsável técnico, data, local e coordenadas, para substituir fichas de papel.    |
+| Critérios de Aceitação       | - Formulário digital para prospecção arqueológica.<br>- Campos para responsável técnico, data e local.<br>- Captura automática de coordenadas GPS.<br>- Funcionamento offline obrigatório. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                       |
+| Status                       | Validada                                                                                                                                                                                   |
+| Rastreabilidade              | RF16-230                                                                                                                                                                                   |
+
+---
+
+# [US17-230] - Registrar características da área arqueológica {#us17-230}
+
+### Tabela 17: História de Usuário – Registrar características da área arqueológica
+
+| Item                         | Descrição                                                                                                                                                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US17-230                                                                                                                                                                                                      |
+| Tema                         | Registrar características da área investigada                                                                                                                                                                 |
+| Descrição                    | Eu, como arqueólogo de campo, desejo registrar características detalhadas da área como relevo, vegetação, compartimentação, superfície, antropização e agente/atividade, para documentação completa do sítio. |
+| Critérios de Aceitação       | - Campos específicos para cada característica da área.<br>- Seleção padronizada de opções.<br>- Campo de observações livres.<br>- Validação de campos obrigatórios.                                           |
+| Prioridade Usuário           | Alta                                                                                                                                                                                                          |
+| Status                       | Validada                                                                                                                                                                                                      |
+| Rastreabilidade              | RF17-230                                                                                                                                                                                                      |
+
+---
+
+# [US18-230] - Registrar descrição do poço-teste {#us18-230}
+
+### Tabela 18: História de Usuário – Registrar descrição do poço-teste
+
+| Item                         | Descrição                                                                                                                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USx(número de identificação) | US18-230                                                                                                                                                                                               |
+| Tema                         | Capturar descrição detalhada do poço-teste                                                                                                                                                             |
+| Descrição                    | Eu, como arqueólogo de campo, desejo registrar detalhes do poço-teste incluindo profundidade, textura, compactação, coloração e fator intransponível, para documentação técnica precisa.               |
+| Critérios de Aceitação       | - Campos específicos para cada aspecto do poço-teste.<br>- Medidas numéricas para profundidade.<br>- Seleção padronizada para textura e compactação.<br>- Campo de observações para fatores especiais. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                                   |
+| Status                       | Validada                                                                                                                                                                                               |
+| Rastreabilidade              | RF18-230                                                                                                                                                                                               |
+
+---
+
+# [US19-230] - Registrar ocorrências arqueológicas {#us19-230}
+
+### Tabela 19: História de Usuário – Registrar ocorrências arqueológicas
+
+| Item                         | Descrição                                                                                                                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US19-230                                                                                                                                                                              |
+| Tema                         | Registrar ocorrências arqueológicas com status e descrição                                                                                                                            |
+| Descrição                    | Eu, como arqueólogo de campo, desejo registrar se foram encontradas ocorrências arqueológicas (Sim/Não) com descrição detalhada dos achados, para documentar descobertas importantes. |
+| Critérios de Aceitação       | - Campo binário para presença de ocorrências (Sim/Não).<br>- Campo de descrição detalhada obrigatório quando "Sim".<br>- Categorização de tipos de achados.<br>- Anexo de fotos.      |
+| Prioridade Usuário           | Alta                                                                                                                                                                                  |
+| Status                       | Validada                                                                                                                                                                              |
+| Rastreabilidade              | RF19-230                                                                                                                                                                              |
+
+---
+
+# [US20-230] - Upload automático de fotos arqueológicas {#us20-230}
+
+### Tabela 20: História de Usuário – Upload automático de fotos arqueológicas
+
+| Item                         | Descrição                                                                                                                                                                                 |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US20-230                                                                                                                                                                                  |
+| Tema                         | Integrar upload automático de fotos georreferenciadas para sítios arqueológicos                                                                                                           |
+| Descrição                    | Eu, como arqueólogo de campo, desejo que as fotos do sítio e achados sejam enviadas automaticamente com georreferenciamento, para documentação visual completa e organizada.              |
+| Critérios de Aceitação       | - Upload automático de fotos após captura.<br>- Preservação de georreferenciamento das fotos.<br>- Associação automática com registro do sítio.<br>- Feedback visual de upload concluído. |
+| Prioridade Usuário           | Alta                                                                                                                                                                                      |
+| Status                       | Validada                                                                                                                                                                                  |
+| Rastreabilidade              | RF20-230                                                                                                                                                                                  |
+
+---
+
+# [US21-230] - Sincronizar com sistema GIZA {#us21-230}
+
+### Tabela 21: História de Usuário – Sincronizar com sistema GIZA
+
+| Item                         | Descrição                                                                                                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US21-230                                                                                                                                                                  |
+| Tema                         | Sincronizar automaticamente dados arqueológicos com sistema GIZA                                                                                                          |
+| Descrição                    | Eu, como arqueólogo de campo, desejo que os dados coletados sejam sincronizados automaticamente com o sistema GIZA, para armazenamento centralizado e acesso pela equipe. |
+| Critérios de Aceitação       | - Sincronização automática quando conectado.<br>- Integração transparente com GIZA.<br>- Preservação de integridade dos dados.<br>- Indicador de status de sincronização. |
+| Prioridade Usuário           | Alta                                                                                                                                                                      |
+| Status                       | Validada                                                                                                                                                                  |
+| Rastreabilidade              | RF21-230                                                                                                                                                                  |
+
+---
+
+# [US22-230] - Gerar ficha de campo em PDF {#us22-230}
+
+### Tabela 22: História de Usuário – Gerar ficha de campo em PDF
+
+| Item                         | Descrição                                                                                                                                                                    |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US22-230                                                                                                                                                                     |
+| Tema                         | Gerar ficha de campo arqueológica em PDF automaticamente                                                                                                                     |
+| Descrição                    | Eu, como coordenador de projeto, desejo gerar automaticamente fichas de campo em PDF dos registros arqueológicos, para anexar em relatórios técnicos e documentação oficial. |
+| Critérios de Aceitação       | - Geração automática de PDF a partir dos dados coletados.<br>- Formatação profissional da ficha.<br>- Inclusão de fotos e mapas.<br>- Download direto do documento gerado.   |
+| Prioridade Usuário           | Alta                                                                                                                                                                         |
+| Status                       | Validada                                                                                                                                                                     |
+| Rastreabilidade              | RF22-230                                                                                                                                                                     |
+
+---
+
+# [US23-230] - Visualizar mapas de prospecção arqueológica {#us23-230}
+
+### Tabela 23: História de Usuário – Visualizar mapas de prospecção arqueológica
+
+| Item                         | Descrição                                                                                                                                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US23-230                                                                                                                                                                   |
+| Tema                         | Exibir mapa interativo com pontos de prospecção arqueológica                                                                                                               |
+| Descrição                    | Eu, como coordenador de projeto, desejo visualizar mapa interativo com todos os pontos de prospecção arqueológica georreferenciados, para análise espacial e planejamento. |
+| Critérios de Aceitação       | - Mapa interativo com pontos de prospecção.<br>- Georreferenciamento preciso.<br>- Navegação e zoom funcionais.<br>- Informações detalhadas ao clicar nos pontos.          |
+| Prioridade Usuário           | Média                                                                                                                                                                      |
+| Status                       | Validada                                                                                                                                                                   |
+| Rastreabilidade              | RF23-230                                                                                                                                                                   |
+
+---
+
+# [US24-230] - Extrair coordenadas UTM {#us24-230}
+
+### Tabela 24: História de Usuário – Extrair coordenadas UTM
+
+| Item                         | Descrição                                                                                                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US24-230                                                                                                                                                              |
+| Tema                         | Extrair e exportar coordenadas UTM dos pontos arqueológicos                                                                                                           |
+| Descrição                    | Eu, como analista técnico, desejo extrair e exportar coordenadas UTM dos pontos de coleta arqueológica, para uso em relatórios técnicos e análises geoespaciais.      |
+| Critérios de Aceitação       | - Extração automática de coordenadas UTM.<br>- Exportação em formato padronizado.<br>- Precisão das coordenadas mantida.<br>- Compatibilidade com softwares técnicos. |
+| Prioridade Usuário           | Média                                                                                                                                                                 |
+| Status                       | Validada                                                                                                                                                              |
+| Rastreabilidade              | RF24-230                                                                                                                                                              |
+
+---
+
+# [US25-230] - Exportar pontos em KML/KMZ {#us25-230}
+
+### Tabela 25: História de Usuário – Exportar pontos em KML/KMZ
+
+| Item                         | Descrição                                                                                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| USx(número de identificação) | US25-230                                                                                                                                                           |
+| Tema                         | Exportar pontos de coleta arqueológica em formato KML/KMZ                                                                                                          |
+| Descrição                    | Eu, como analista GIS, desejo exportar pontos de coleta arqueológica em formato KML/KMZ, para integração com Google Earth e softwares GIS especializados.          |
+| Critérios de Aceitação       | - Exportação em formato KML/KMZ.<br>- Compatibilidade com Google Earth.<br>- Preservação de atributos dos pontos.<br>- Estrutura de dados organizada para análise. |
+| Prioridade Usuário           | Baixa                                                                                                                                                              |
+| Status                       | Validada                                                                                                                                                           |
+| Rastreabilidade              | RF25-230                                                                                                                                                           |
+
+---
+
+# [US26-230] - Listar registros arqueológicos {#us26-230}
+
+### Tabela 26: História de Usuário – Listar registros arqueológicos
+
+| Item                         | Descrição                                                                                                                                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US26-230                                                                                                                                                                   |
+| Tema                         | Manter lista simples de registros de prospecção arqueológica                                                                                                               |
+| Descrição                    | Eu, como coordenador de projeto, desejo visualizar lista simples e organizada dos registros de prospecção arqueológica, para acompanhamento e gestão do trabalho de campo. |
+| Critérios de Aceitação       | - Lista organizada por data de coleta.<br>- Informações resumidas de cada registro.<br>- Busca e filtros básicos.<br>- Acesso rápido aos detalhes de cada ponto.           |
+| Prioridade Usuário           | Média                                                                                                                                                                      |
+| Status                       | Validada                                                                                                                                                                   |
+| Rastreabilidade              | RF26-230                                                                                                                                                                   |
